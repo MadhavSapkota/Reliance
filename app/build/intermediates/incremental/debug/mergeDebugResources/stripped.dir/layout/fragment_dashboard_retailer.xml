@@ -1,0 +1,344 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:fillViewport="true">
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+		<RelativeLayout
+			android:id="@+id/my_toolbar_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/dashboard_retailer_shape"
+			android:orientation="vertical">
+			
+			<TextView
+				android:id="@+id/tv_retailer_dashboard_header_hello"
+				style="@style/text_roboto_600wt_28sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/_10sdp"
+				android:layout_marginTop="@dimen/_40sdp"
+				android:text="@string/retailer_dashboard_heading" />
+			
+			
+			<TextView
+				android:id="@+id/tv_retailer_dashboard_header"
+				style="@style/text_roboto_600wt_28sp"
+				android:layout_below="@+id/tv_retailer_dashboard_header_hello"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/_10sdp"
+				android:text="@string/retailer_dashboard_heading_retailer_name" />
+			
+			
+			<RelativeLayout
+				android:id="@+id/rl_retailer_transcation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tv_retailer_dashboard_header"
+				android:layout_marginStart="@dimen/_10sdp"
+				android:layout_marginEnd="@dimen/_10sdp"
+				android:layout_marginBottom="@dimen/_10sdp"
+				android:layout_marginTop="@dimen/_13sdp"
+				>
+				
+				
+				<androidx.cardview.widget.CardView
+					android:id="@+id/card_view_total_transcations"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					app:cardCornerRadius="@dimen/_7sdp">
+					
+					<RelativeLayout
+						android:id="@+id/rl_total_transactions"
+						android:layout_width="match_parent"
+						android:layout_height="@dimen/_90sdp"
+						android:background="@color/lightWhiteGray">
+						
+						<ImageView
+							android:id="@+id/imageView_transcation_icon"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_centerVertical="true"
+							android:layout_marginStart="@dimen/_15sdp"
+							android:layout_marginEnd="@dimen/_15sdp"
+							android:src="@drawable/retailer_transcation_icon" />
+						
+						
+						<RelativeLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_centerVertical="true"
+							
+							android:layout_marginEnd="@dimen/_5sdp"
+							android:layout_marginBottom="@dimen/_14sdp"
+							android:layout_toEndOf="@+id/imageView_transcation_icon">
+							
+							<TextView
+								android:id="@+id/tv_bill_number"
+								style="@style/text_roboto_14sp_400_opacity60"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginBottom="@dimen/_1sdp"
+								android:text="@string/total_transaction" />
+							
+							<RelativeLayout
+								android:id="@+id/rl_retailer_transaction"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_below="@+id/tv_bill_number"
+								android:layout_centerVertical="true">
+								
+								
+								<TextView
+									android:id="@+id/tv_transcation_amount"
+									style="@style/text_roboto_28sp_700_black"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_marginBottom="@dimen/_4sdp"
+									android:text="@string/total_transaction_amount" />
+								
+								<TextView
+									android:id="@+id/tv_bills_amount"
+									style="@style/text_roboto_11sp_400_opacity60percentage"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_below="@+id/tv_transcation_amount"
+									android:text="@string/total_transcation_pre_vat" />
+							</RelativeLayout>
+						</RelativeLayout>
+					
+					</RelativeLayout>
+				
+				
+				</androidx.cardview.widget.CardView>
+				
+				<androidx.cardview.widget.CardView
+					android:id="@+id/card_view_total_scheme"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/card_view_total_transcations"
+					android:layout_marginTop="@dimen/_15sdp"
+					android:layout_marginBottom="@dimen/_15sdp"
+					app:cardCornerRadius="@dimen/_7sdp">
+					
+					<RelativeLayout
+						android:id="@+id/rl_total_scheme"
+						android:layout_width="match_parent"
+						android:layout_height="@dimen/_90sdp"
+						android:background="@color/lightWhiteGray">
+						
+						<ImageView
+							android:id="@+id/imageView_total_scheme"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_centerVertical="true"
+							android:layout_marginStart="@dimen/_15sdp"
+							android:layout_marginEnd="@dimen/_15sdp"
+							android:src="@drawable/retailer_scheme_icon" />
+						
+						
+						<RelativeLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_centerVertical="true"
+							android:layout_marginEnd="@dimen/_5sdp"
+							android:layout_marginBottom="@dimen/_14sdp"
+							android:layout_toEndOf="@+id/imageView_total_scheme">
+							
+							<TextView
+								android:id="@+id/tv_total_scheme"
+								style="@style/text_roboto_14sp_400_opacity60"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginBottom="@dimen/_1sdp"
+								android:text="@string/total_scheme" />
+							
+							<RelativeLayout
+								android:id="@+id/rl_retailer_total_scheme_amount"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_below="@+id/tv_total_scheme"
+								android:layout_centerVertical="true">
+								
+								<TextView
+									android:id="@+id/tv_scheme_amount"
+									style="@style/text_roboto_28sp_700_black"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_marginBottom="@dimen/_5sdp"
+									android:text="@string/total_scheme_amount" />
+							</RelativeLayout>
+						</RelativeLayout>
+					
+					</RelativeLayout>
+				</androidx.cardview.widget.CardView>
+			</RelativeLayout>
+		</RelativeLayout>
+		
+		<RelativeLayout
+			android:id="@+id/dashboardRecyclerView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_24sdp"
+			android:layout_marginStart="@dimen/_10sdp"
+			android:layout_marginEnd="@dimen/_13sdp"
+			android:layout_below="@id/my_toolbar_layout">
+<!--			android:background="@drawable/searchbar_background"-->
+			
+<!--			<include-->
+<!--				android:id="@+id/my_dashboard_annual_scheme"-->
+<!--				layout="@layout/dashboard_recyclerview"-->
+<!--				android:layout_width="match_parent"-->
+<!--				android:layout_height="wrap_content" />-->
+			
+			
+			
+			<include
+				android:id="@+id/schemeGraph"
+				layout="@layout/dashboard_recyclerview"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" />
+			
+			
+			
+			<include
+				android:id="@+id/graph"
+				layout="@layout/bar_graph"
+				android:layout_below="@+id/schemeGraph"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" />
+			
+				
+
+
+			
+			
+			
+			
+			<com.github.mikephil.charting.charts.HorizontalBarChart
+				android:id="@+id/horizontalBarChart"
+				android:layout_below="@+id/graph"
+				android:visibility="gone"
+				android:layout_width="@dimen/_500sdp"
+				android:layout_height="@dimen/_150sdp"
+				android:layout_marginTop="@dimen/_10sdp"
+				android:layout_marginBottom="@dimen/_13sdp"
+				android:background="@color/white" />
+			
+			
+			
+			
+		</RelativeLayout>
+		
+<!--		<RelativeLayout-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:layout_width="wrap_content"-->
+<!--			android:layout_below="@+id/dashboardRecyclerView"-->
+<!--			android:id="@+id/rlChartDescription">-->
+			
+<!--		<RelativeLayout-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:id="@+id/rl_monthly_target_tracker"-->
+<!--			android:layout_width="match_parent">-->
+<!--			-->
+<!--			<TextView-->
+<!--				android:id="@+id/rl_monthly_tracker"-->
+<!--				android:layout_width="wrap_content"-->
+<!--				style="@style/text_roboto_26sp_600_black"-->
+<!--				android:layout_marginStart="@dimen/_13sdp"-->
+<!--				android:layout_marginTop="@dimen/_13sdp"-->
+<!--				android:layout_marginBottom="@dimen/_15sdp"-->
+<!--				android:layout_height="wrap_content"-->
+<!--				android:text="@string/monthly_target_tracker_title" />-->
+<!--			-->
+<!--			<RelativeLayout-->
+<!--				android:id="@+id/rlRequirePurchase"-->
+<!--				android:layout_height="wrap_content"-->
+<!--				android:layout_below="@+id/rl_monthly_tracker"-->
+<!--				android:layout_alignParentEnd="true"-->
+<!--				android:layout_marginEnd="@dimen/_30sdp"-->
+<!--				android:layout_width="wrap_content">-->
+<!--				-->
+<!--				<ImageView-->
+<!--					android:id="@+id/iVRequiredPurchase"-->
+<!--					android:layout_height="wrap_content"-->
+<!--					android:layout_marginTop="@dimen/_3sdp"-->
+<!--					android:background="@drawable/graph_icon_circle"-->
+<!--					android:layout_width="wrap_content"/>-->
+<!--				-->
+<!--				<TextView-->
+<!--					android:id="@+id/tvRequiredPurchase"-->
+<!--					android:layout_toEndOf="@+id/iVRequiredPurchase"-->
+<!--					android:layout_height="wrap_content"-->
+<!--					android:layout_marginStart="@dimen/_5sdp"-->
+<!--					android:text="@string/requiredPurchase"-->
+<!--					android:layout_width="wrap_content">-->
+<!--				</TextView>-->
+<!--			</RelativeLayout>-->
+<!--			-->
+<!--			<RelativeLayout-->
+<!--				android:id="@+id/rlAveragePurchase"-->
+<!--				android:layout_height="wrap_content"-->
+<!--				android:layout_marginTop="@dimen/_8sdp"-->
+<!--				android:layout_below="@+id/rlRequirePurchase"-->
+<!--				android:layout_alignParentEnd="true"-->
+<!--				android:layout_marginEnd="@dimen/_35sdp"-->
+<!--				android:layout_width="wrap_content">-->
+<!--				-->
+<!--				<ImageView-->
+<!--					android:id="@+id/iVAveragePurchase"-->
+<!--					android:layout_height="wrap_content"-->
+<!--					android:layout_marginTop="@dimen/_3sdp"-->
+<!--					android:background="@drawable/deep_blue_icon"-->
+<!--					android:layout_width="wrap_content"/>-->
+<!--				-->
+<!--				<TextView-->
+<!--					android:id="@+id/tvAveragePurchase"-->
+<!--					android:layout_toEndOf="@+id/iVAveragePurchase"-->
+<!--					android:layout_height="wrap_content"-->
+<!--					android:layout_marginStart="@dimen/_5sdp"-->
+<!--					android:text="@string/average_purchase_title"-->
+<!--					android:layout_width="wrap_content">-->
+<!--				</TextView>-->
+<!--			-->
+<!--			</RelativeLayout>-->
+<!--		</RelativeLayout>-->
+			
+			
+			
+			
+			
+<!--			<include-->
+<!--				android:id="@+id/graph"-->
+<!--				layout="@layout/bar_graph"-->
+<!--				android:layout_below="@+id/rl_monthly_target_tracker"-->
+<!--				android:layout_width="match_parent"-->
+<!--				android:layout_height="match_parent" />-->
+<!--			-->
+<!--			-->
+<!--			-->
+<!--			-->
+<!--			<com.github.mikephil.charting.charts.HorizontalBarChart-->
+<!--				android:id="@+id/horizontalBarChart"-->
+<!--				android:layout_below="@+id/graph"-->
+<!--				android:visibility="gone"-->
+<!--				android:layout_width="@dimen/_500sdp"-->
+<!--				android:layout_height="@dimen/_150sdp"-->
+<!--				android:layout_marginTop="@dimen/_10sdp"-->
+<!--				android:layout_marginBottom="@dimen/_13sdp"-->
+<!--				android:background="@color/white" />-->
+<!--			-->
+			
+			
+<!--		</RelativeLayout>-->
+		
+		
+		
+	</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

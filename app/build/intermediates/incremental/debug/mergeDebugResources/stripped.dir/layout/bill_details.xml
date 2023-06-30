@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	
+	<androidx.core.widget.NestedScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/colorPrimary"
+		android:fillViewport="true">
+		
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			
+			
+			<RelativeLayout
+				android:id="@+id/my_toolbar_layout"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/_55sdp"
+				android:background="@drawable/submit_background"
+				android:orientation="vertical">
+
+				<RelativeLayout
+					android:id="@+id/ivForwardButton"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_width="wrap_content">
+					
+					<ImageView
+						android:id="@+id/ivForward"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="@dimen/_10sdp"
+						
+						android:layout_width="wrap_content"
+						android:background="@drawable/arrow_forward">
+					</ImageView>
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/tvBillsHeader"
+					style="@style/text_roboto_600wt_24sp_black"
+					android:layout_width="wrap_content"
+					android:layout_toEndOf="@+id/ivForwardButton"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_gravity="center_vertical"
+					android:layout_marginStart="@dimen/margin"
+					android:text="@string/billDetails" />
+			
+			</RelativeLayout>
+			<RelativeLayout
+				android:id="@+id/my_entry_layout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/my_toolbar_layout"
+				android:layout_marginStart="@dimen/margin"
+				android:layout_marginTop="@dimen/margin"
+				android:layout_marginEnd="@dimen/margin">
+				
+				<RelativeLayout
+					android:id="@id/rl_bill_no"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="@dimen/_7sdp">
+					
+					
+					<TextView
+						android:id="@+id/tv_bill_no"
+						style="@style/text_roboto_400wt_16sp_black"
+						android:layout_width="wrap_content"
+						android:layout_marginStart="@dimen/_5sdp"
+						android:layout_height="wrap_content"
+						android:text="@string/bill_details_bill_no" />
+					
+					<!-- Completed status -->
+					<TextView
+						android:id="@+id/completedTextView"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:text="@string/bill_details_completed"
+						style="@style/text_roboto_400wt_12sp_green" />
+				</RelativeLayout>
+
+				
+				<RelativeLayout
+					android:id="@+id/rl_retailer_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/rl_bill_no">
+					
+					<TextView
+						android:id="@+id/tv_retailer_name"
+						style="@style/text_roboto_600wt_16s1p_black"
+						android:layout_width="wrap_content"
+						android:layout_marginStart="@dimen/_5sdp"
+						android:layout_height="wrap_content"
+						android:text="@string/bill_details_retailer_name"
+						/>
+					
+					<TextView
+						android:id="@+id/billDateTextView"
+						android:layout_width="wrap_content"
+						style="@style/text_roboto_400wt_16s1p_black"
+						android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:text="@string/bill_details_date"
+						android:textSize="14sp" />
+				</RelativeLayout>
+				
+				<RelativeLayout
+					android:id="@+id/rl_retailer_location"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_10sdp"
+					android:layout_marginStart="@dimen/_5sdp"
+					android:layout_below="@+id/rl_retailer_name">
+					
+					<TextView
+						android:id="@+id/tv_retailer_metro_name"
+						style="@style/text_roboto_400wt_12sp_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="@dimen/_5sdp"
+						android:layout_marginEnd="@dimen/_5sdp"
+						android:layout_marginBottom="@dimen/_4sdp"
+						android:text="@string/bill_details_metro_name" />
+					
+					<TextView
+						android:id="@+id/tv_phone_number"
+						style="@style/text_roboto_400wt_12sp_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentEnd="true"
+						android:layout_marginTop="@dimen/_5sdp"
+						android:layout_marginBottom="@dimen/_5sdp"
+						android:text="@string/bill_details_phone_number" />
+					
+					
+					<RelativeLayout
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/tv_retailer_metro_name"
+						android:layout_width="wrap_content">
+					
+					
+					<TextView
+						android:id="@+id/tv_retailer_district_name"
+						android:layout_width="wrap_content"
+						style="@style/text_roboto_400wt_12sp_black"
+						android:layout_height="wrap_content"
+						android:text="@string/bill_details_district" />
+					
+					
+					<TextView
+						android:id="@+id/tv_retailer_province_name"
+						android:layout_width="wrap_content"
+						style="@style/text_roboto_400wt_12sp_black"
+						android:layout_toEndOf="@+id/tv_retailer_district_name"
+						android:layout_height="wrap_content"
+						android:text="@string/bill_details_province_name" />
+					
+					</RelativeLayout>
+					
+				</RelativeLayout>
+			</RelativeLayout>
+			
+			<RelativeLayout
+				android:id="@+id/rl_pvc"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/my_entry_layout"
+				android:layout_margin="@dimen/margin"
+				android:background="@drawable/searchbar_background">
+				
+
+				<RelativeLayout
+					android:id="@+id/rl_calio_utlra"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					
+					<include
+						android:id="@+id/bills_details_items_list"
+						layout="@layout/dashboard_recyclerview"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content" />
+
+				</RelativeLayout>
+				
+				<RelativeLayout
+					android:id="@+id/rl_bottom"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/_40sdp"
+					android:layout_marginEnd="@dimen/_10sdp"
+					android:layout_below="@+id/rl_calio_utlra">
+					
+					<RelativeLayout
+						android:id="@+id/rl_total_amount"
+						android:layout_width="wrap_content"
+						android:layout_marginTop="@dimen/_5sdp"
+						android:layout_height="wrap_content">
+						
+						<TextView
+							android:id="@+id/tv_total_amount"
+							style="@style/text_roboto_600wt_18sp1_black"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="@dimen/_5sdp"
+							android:text="@string/bill_details_calio_total_amount" />
+						
+						<TextView
+							android:id="@+id/tv_vat_amount"
+							style="@style/text_roboto_700wt_18sp_black"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentRight="true"
+							android:layout_marginEnd="@dimen/_5sdp"
+							android:text="@string/bill_details_calio_total_amount_digit" />
+					</RelativeLayout>
+					
+					<RelativeLayout
+						android:id="@+id/rl_total_vat_amount"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/rl_total_amount"
+						android:layout_marginBottom="@dimen/_10sdp"
+						android:layout_marginTop="@dimen/_10sdp">
+						
+						<TextView
+							android:id="@+id/tv_total_vat_amount"
+							style="@style/text_roboto_600wt_18sp1_black"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="@dimen/_5sdp"
+							android:text="@string/bill_details_vat_amount" />
+						
+						<TextView
+							android:id="@+id/tv_total_vat_amount_digit"
+							style="@style/text_roboto_700wt_18sp_black"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentRight="true"
+							android:layout_marginEnd="@dimen/_5sdp"
+							android:text="@string/bill_details_vat_amount_digit" />
+					</RelativeLayout>
+				</RelativeLayout>
+			
+			
+			</RelativeLayout>
+		
+			
+			
+			
+			
+		</RelativeLayout>
+	</androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

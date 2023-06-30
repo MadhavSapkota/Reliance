@@ -1,0 +1,176 @@
+
+<androidx.core.widget.NestedScrollView
+	android:layout_width="match_parent"
+	android:id="@+id/nestedScreen"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:fillViewport="true">
+
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<RelativeLayout
+			android:id="@+id/rlMain"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:visibility="visible">
+			
+			
+			<RelativeLayout
+				android:id="@+id/my_toolbar_layout"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/_55sdp"
+				android:background="@drawable/submit_background"
+				android:orientation="vertical">
+
+				<RelativeLayout
+					android:id="@+id/ivForwardButton"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_width="wrap_content">
+
+
+					<ImageView
+						android:id="@+id/ivForward"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="@dimen/_10sdp"
+
+						android:layout_width="wrap_content"
+						android:background="@drawable/arrow_forward">
+					</ImageView>
+				</RelativeLayout>
+
+
+
+				<TextView
+					android:id="@+id/tvBillsHeader"
+					style="@style/text_roboto_600wt_28sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_toEndOf="@+id/ivForwardButton"
+					android:layout_centerVertical="true"
+					android:layout_gravity="center_vertical"
+					android:layout_marginStart="@dimen/margin"
+					android:text="@string/distributor_party_list" />
+
+
+			
+			
+			</RelativeLayout>
+			
+			
+			<RelativeLayout
+				android:id="@+id/my_entry_layout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/my_toolbar_layout"
+				android:layout_marginStart="@dimen/margin"
+				android:layout_marginTop="@dimen/margin"
+				android:layout_marginEnd="@dimen/margin">
+				
+				<LinearLayout
+					android:id="@+id/ll_search"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/_40sdp"
+					android:orientation="horizontal"
+					android:weightSum="1">
+					
+					<RelativeLayout
+						android:id="@+id/rlSearchBar"
+						android:layout_width="wrap_content"
+						android:layout_height="@dimen/_40sdp"
+						android:layout_weight="0.8">
+						
+						<SearchView
+							android:id="@+id/search_view"
+							android:layout_width="match_parent"
+							android:layout_height="@dimen/_40sdp"
+							android:background="@drawable/searchbar_background"
+							android:queryBackground="@android:color/transparent"
+							android:queryHint="Search"
+							android:textSize="14sp"
+							app:searchHintIcon="@android:color/transparent" />
+					
+					</RelativeLayout>
+				</LinearLayout>
+				
+				
+				<RelativeLayout
+					android:id="@+id/ll_complete_status"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/ll_search"
+					android:layout_marginTop="@dimen/marginTopBottom"
+					android:gravity="center_horizontal"
+					android:orientation="horizontal"
+					android:visibility="gone">
+					
+					<Button
+						android:id="@+id/btn_all"
+						style="@style/text_roboto_500wt_14sp"
+						android:layout_width="@dimen/_80sdp"
+						android:layout_height="@dimen/_29sdp"
+						android:layout_marginEnd="@dimen/_5sdp"
+						android:background="@drawable/bills_all_background"
+						android:text="@string/bills_status_all"
+						android:textAllCaps="false" />
+					
+					<Button
+						android:id="@+id/btn_pending"
+						style="@style/text_roboto_400wt_14sp_60percent"
+						android:layout_width="@dimen/_80sdp"
+						android:layout_height="@dimen/_29sdp"
+						android:layout_marginEnd="@dimen/_5sdp"
+						android:layout_toEndOf="@+id/btn_all"
+						android:background="@drawable/bills_pending_background"
+						android:text="@string/bills_status_pending"
+						android:textAllCaps="false" />
+					
+					<Button
+						android:id="@+id/btn_complete"
+						style="@style/text_roboto_400wt_14sp_60percent"
+						android:layout_width="@dimen/_80sdp"
+						android:layout_height="@dimen/_29sdp"
+						android:layout_toEndOf="@+id/btn_pending"
+						android:background="@drawable/bills_pending_background"
+						android:text="@string/bills_status_complete"
+						android:textAllCaps="false" />
+				
+				</RelativeLayout>
+				
+				<TextView
+					android:id="@+id/tv_showing_enteries"
+					style="@style/text_roboto_400wt_14sp_95percent_opacity"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/ll_complete_status"
+					android:layout_marginTop="@dimen/_20sdp"
+					android:visibility="visible" />
+
+				<include
+					android:id="@+id/my_dashboard_bills_list_items_recyclerview_include"
+					layout="@layout/dashboard_recyclerview"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/tv_showing_enteries"
+					android:layout_marginTop="@dimen/marginTopBottom" />
+
+			</RelativeLayout>
+
+			<ProgressBar
+				android:id="@+id/progressBar"
+				style="@style/appProgressbar"
+				android:layout_width="wrap_content"
+				android:visibility="gone"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/my_entry_layout"
+				android:layout_centerHorizontal="true"
+				android:indeterminate="true" />
+		</RelativeLayout>
+	</RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+<!--</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->

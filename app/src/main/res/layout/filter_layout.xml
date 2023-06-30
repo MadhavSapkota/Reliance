@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/_300sdp">
+	
+	<RelativeLayout
+		android:id="@+id/rlUser"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/_300sdp"
+		
+			app:cardUseCompatPadding="true">
+			
+			
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:background="@drawable/search_filter_dashboard"
+				android:layout_height="match_parent">
+				
+				
+				<ImageView
+					android:id="@+id/iv_top_lineBtn"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_marginTop="@dimen/_5sdp"
+					android:background="@drawable/line">
+				
+				</ImageView>
+				
+				
+				<RelativeLayout
+					android:id="@+id/rl_header"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_20sdp"
+					android:layout_marginStart="@dimen/_15sdp"
+					android:orientation="vertical">
+					
+					<View
+						android:id="@+id/view"
+						android:layout_width="match_parent"
+						android:layout_height="@dimen/_1sdp"
+						android:layout_below="@+id/filterText"
+						android:background="@color/colorDarkShades" />
+					
+					<TextView
+						android:id="@+id/filterText"
+						style="@style/text_roboto_600wt_18sp_black_filter"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						
+						android:layout_marginBottom="@dimen/_20sdp"
+						android:text="@string/bills_retailer_filter" />
+				
+				</RelativeLayout>
+				
+				<RelativeLayout
+				
+					android:id="@+id/main_content"
+					android:layout_centerVertical="true"
+					android:layout_centerHorizontal="true"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content">
+				
+				<RelativeLayout
+					android:id="@+id/rl_from"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+					
+					
+					<TextView
+						android:id="@+id/tv_from_field"
+						style="@style/text_roboto_600wt_14sp_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						
+						android:layout_gravity="center"
+						android:layout_marginBottom="@dimen/_5sdp"
+						android:text="@string/bills_retailer_from_date" />
+					
+					
+					<EditText
+						android:id="@+id/et_from_date"
+						android:layout_width="@dimen/_110sdp"
+						android:layout_height="@dimen/_30sdp"
+						android:paddingEnd="@dimen/_10sdp"
+						android:layout_below="@+id/tv_from_field"
+						android:hint="2079-04-11"
+						android:inputType="date"
+						android:focusable="false"
+						android:layout_gravity="center"
+						android:paddingLeft="@dimen/itemPadding"
+						android:background="@drawable/background_filterfield" />
+				
+				
+				</RelativeLayout>
+				
+				<RelativeLayout
+					android:id="@+id/rl_to"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/_16sdp"
+					android:layout_toEndOf="@+id/rl_from">
+					
+					
+					<TextView
+						android:id="@+id/tv_to_date"
+						style="@style/text_roboto_600wt_14sp_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_marginBottom="@dimen/_5sdp"
+						android:text="@string/bills_retailer_to_date" />
+					
+					
+					<EditText
+						android:id="@+id/et_to_date"
+						android:layout_width="@dimen/_110sdp"
+						android:layout_height="@dimen/_30sdp"
+						android:layout_below="@+id/tv_to_date"
+						android:paddingEnd="@dimen/_10sdp"
+						android:hint="2079-04-11"
+						android:inputType="date"
+						android:focusable="false"
+						android:layout_gravity="center"
+						android:paddingLeft="@dimen/itemPadding"
+						android:background="@drawable/background_filterfield" />
+				
+				</RelativeLayout>
+				
+				<RelativeLayout
+					android:id="@+id/rl_distributer"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/rl_to"
+					android:layout_marginTop="@dimen/_14sdp">
+					
+					
+					<TextView
+						android:id="@+id/tv_partyName"
+						style="@style/text_roboto_600wt_14sp_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_marginBottom="@dimen/_5sdp"
+						android:text="" />
+					
+					
+					<Spinner
+						android:id="@+id/sp_distributor"
+						android:layout_width="@dimen/_110sdp"
+						android:layout_height="@dimen/_30sdp"
+						android:layout_below="@+id/tv_partyName"
+						android:background="@drawable/spinner_background"
+						android:text="@string/spinner_select"
+						android:spinnerMode="dialog"
+						android:focusable="false" />
+				</RelativeLayout>
+				
+				<RelativeLayout
+					android:id="@+id/rl_bill_no"
+					android:layout_width="wrap_content"
+					android:layout_toEndOf="@+id/rl_distributer"
+					android:layout_marginTop="@dimen/_14sdp"
+					android:layout_marginStart="@dimen/_16sdp"
+					android:layout_below="@+id/rl_to"
+					android:layout_height="wrap_content">
+					
+					
+					<TextView
+						android:id="@+id/tv_rl_bill_no"
+						android:layout_width="wrap_content"
+						style="@style/text_roboto_600wt_14sp_black"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_marginBottom="@dimen/_5sdp"
+						android:text="@string/bills_retailer_bill_no" />
+
+					
+					<EditText
+						android:id="@+id/sp_bill_no"
+						android:layout_width="@dimen/_110sdp"
+						style="@style/text_400wt_14sp"
+						android:background="@drawable/background_filterfield"
+						android:layout_height="@dimen/_30sdp"
+						android:paddingStart="@dimen/_10sdp"
+						android:layout_below="@+id/tv_rl_bill_no"
+						android:hint="Bill No." />
+				</RelativeLayout>
+				</RelativeLayout>
+				
+
+				<RelativeLayout
+					android:id="@+id/rlSubmit"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:layout_marginStart="@dimen/_15sdp"
+					android:layout_marginTop="@dimen/_10sdp"
+					android:layout_marginEnd="@dimen/_11sdp"
+					android:layout_marginBottom="@dimen/_20sdp"
+					android:background="@drawable/submit_btn_background"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:id="@+id/btn_login"
+						style="@style/text_roboto_700wt_18sp_text"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						android:layout_centerVertical="true"
+						android:layout_marginTop="@dimen/_20sdp"
+						android:text="@string/bills_retailer_apply" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>
+	

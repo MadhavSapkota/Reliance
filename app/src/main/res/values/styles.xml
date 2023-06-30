@@ -1,0 +1,578 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorSurface">@color/colorPrimary</item>
+    </style>
+
+    
+    <style name="AppThemeMaterial" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/shadesOfBlue</item>
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+    
+    
+    
+    <style name="text_header_700wt_32sp">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+    
+    
+    <style name="text_header_600wt_20sp">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/lightBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+    
+    
+    
+    <style name="text_600wt_20sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/lightBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+    </style>
+
+
+    <style name="text_roboto_400wt_14sp_95percent_opacity.">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/nintyfivepercentageBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+    </style>
+
+
+    <style name="text_400wt_17sp">
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="text_400wt_16sp_90opacity">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/color90percentageOpacity</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="text_400wt_20_95percentage_opacity">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/nintyfivepercentageBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="text_700wt_20_95percentage_opacity">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/nintyfivepercentageBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="text_400wt_17sp_nintyfivepercentage_opacity">
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/nintyfivepercentage_opacity</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="text_400wt_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/shadesGray</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="text_roboto_400wt_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="text_roboto_400wt_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/shadesGray</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+    
+    <style name="text_roboto_400wt_16sp_shadesGray">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/shadesGray</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+    
+    <style name="text_roboto_700wt_20sp">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+
+
+    <style name="text_roboto_700wt_18sp_text">
+        <item name="android:textSize">19sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+    
+    <style name="text_roboto_700wt_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+    
+    
+    <style name="text_roboto_700wt_20sp_light_color_black">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/lightColorBlack</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+    
+
+    <style name="text_roboto_700wt_19sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+    
+    
+    
+    <style name="text_roboto_600wt_20sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+    </style>
+
+    <style name="text_roboto_400wt_17sp">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/shadesOfBlue</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+    
+    
+    <style name="paragraph_error_login_subheader">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_600wt_28sp">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text_roboto_600wt_24sp">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/nintyfivepercentage_opacity</item>
+    </style>
+    
+    <style name="text_roboto_700wt_12sp_white">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="fontWeight">700</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_roboto_400wt_14sp_60percent">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/color60percentageBlack</item>
+    </style>
+    
+    <style name="text_roboto_500wt_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">500</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    
+    <style name="text_roboto_400wt_10sp">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/darkShadowGray</item>
+    </style>
+    
+    <style name="text_roboto_400wt_14sp_95percent_opacity">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/color90percentageOpacity</item>
+    </style>
+    
+    <style name="text_roboto_400wt_20sp_90percent_opacity">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/color90percentageOpacity</item>
+    </style>
+
+
+    <style name="text_roboto_400wt_24sp_90percent_opacity">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/color90percentageOpacity</item>
+    </style>
+
+
+    <style name="text_roboto_400wt_14sp_black_color">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_roboto_400wt_14sp_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/roughBlack</item>
+    </style>
+    
+    <style name="text_roboto_700wt_20sp_black">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="fontWeight">700</item>
+        <item name="android:textColor">@color/nintyfivepercentageBlack</item>
+    </style>
+    
+    <style name="text_roboto_600wt_18sp_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+    </style>
+
+    <style name="text_roboto_600wt_18sp_black_color">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    
+    <style name="text_roboto_600wt_18sp_black_filter">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+    </style>
+    
+    
+    <style name="text_roboto_600wt_14sp_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorBlackOpacity</item>
+    </style>
+    
+    <style name="text_roboto_600wt_16sp_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="text_roboto_600wt_24sp_black">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    
+    
+    <style name="text_roboto_400wt_16sp_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_400wt_12sp_green">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorLightGreen</item>
+    </style>
+    
+    <style name="text_roboto_600wt_16s1p_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_400wt_16s1p_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/roughBlack</item>
+    </style>
+    
+    <style name="text_roboto_400wt_12sp_black">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    
+    <style name="text_roboto_700wt_16sp_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="fontWeight">700</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_700wt_18sp_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="fontWeight">700</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_600wt_18sp1_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="fontWeight">700</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_400wt1_16sp_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_600wt1_18sp_black">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    
+    <style name="text_roboto_600wt_16sp1_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    
+    <style name="text_roboto_500wt_11sp_white">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_roboto_14sp_400_opacity60">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorOpacity60percent</item>
+    </style>
+
+    <style name="text_roboto_28sp_700_black">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_roboto_11sp_400_60percent_opacity">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorOpacity60percent</item>
+    </style>
+
+    <style name="text_roboto_20sp_600_black">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_roboto_16sp_400_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/nintyfivepercentage_opacity</item>
+    </style>
+    
+    <style name="text_roboto_11sp_400_opacity60percentage">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorOpacity60percent</item>
+    </style>
+
+    <style name="text_roboto_28sp_600_black">
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_26sp_600_black">
+        <item name="android:textSize">23sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_roboto_28sp_700_95percentage_opacity">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/nintyfivepercentage_opacity</item>
+    </style>
+    
+
+    <style name="text_roboto_18sp_400_black">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_roboto_18sp_600_black">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_roboto_18sp_400_blue">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/shadesOfBlue</item>
+    </style>
+
+    <style name="text_roboto_18sp_600_blue">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/shadesOfBlue</item>
+    </style>
+    
+    <style name="text_roboto_14sp_500_white">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    
+    <style name="text_roboto_14sp_400_60p_opacity">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorOpacity60percent</item>
+    </style>
+
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="text_14_black_bold">
+        <item name="android:textSize">15.5sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_16_black_bold">
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="paragraph_small_black1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="text_16sp_400_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="text_16sp_700_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/shadesOfBlue</item>
+    </style>
+    
+    <style name="text_16sp_500_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_16sp_600_black">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_14sp_400_blackseventypercentageopacity">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorOpacity70percent</item>
+    </style>
+
+    <style name="text_16sp_500_lightblack">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/lightblack</item>
+    </style>
+
+    <style name="text_16sp_400_colorOpacity70percent">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorOpacity70percent</item>
+    </style>
+
+    <style name="text_16sp_400_sixtypercentage_opacity">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/sixtypercentage_opacity</item>
+    </style>
+
+    <style name="text_14sp_400_black">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_16sp_400_lightgreen">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    
+    <style name="text_16sp_600_blackColor">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text_16sp_600_colorWhite">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>

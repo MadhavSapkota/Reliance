@@ -1,0 +1,296 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reliance.yeticarpet"
+4    android:versionCode="14"
+5    android:versionName="1.1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Reliance\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Reliance\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\Reliance\app\src\main\AndroidManifest.xml:6:2-76
+11-->E:\Reliance\app\src\main\AndroidManifest.xml:6:19-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Reliance\app\src\main\AndroidManifest.xml:7:2-64
+12-->E:\Reliance\app\src\main\AndroidManifest.xml:7:19-61
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->E:\Reliance\app\src\main\AndroidManifest.xml:8:2-73
+13-->E:\Reliance\app\src\main\AndroidManifest.xml:8:19-70
+14
+15    <application
+15-->E:\Reliance\app\src\main\AndroidManifest.xml:10:2-107:16
+16        android:name="com.reliance.yeticarpet.app.AppApplication"
+16-->E:\Reliance\app\src\main\AndroidManifest.xml:11:3-60
+17        android:allowBackup="true"
+17-->E:\Reliance\app\src\main\AndroidManifest.xml:12:3-29
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.8.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\3941eecb2f79f26234169b6cbcbf7a66\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:hardwareAccelerated="true"
+20-->E:\Reliance\app\src\main\AndroidManifest.xml:22:3-37
+21        android:icon="@drawable/logo"
+21-->E:\Reliance\app\src\main\AndroidManifest.xml:13:3-32
+22        android:label="@string/app_name"
+22-->E:\Reliance\app\src\main\AndroidManifest.xml:14:3-35
+23        android:networkSecurityConfig="@xml/network_security_config"
+23-->E:\Reliance\app\src\main\AndroidManifest.xml:21:3-63
+24        android:requestLegacyExternalStorage="true"
+24-->E:\Reliance\app\src\main\AndroidManifest.xml:16:3-46
+25        android:roundIcon="@drawable/logo"
+25-->E:\Reliance\app\src\main\AndroidManifest.xml:17:3-37
+26        android:screenOrientation="portrait"
+26-->E:\Reliance\app\src\main\AndroidManifest.xml:20:3-40
+27        android:supportsRtl="true"
+27-->E:\Reliance\app\src\main\AndroidManifest.xml:18:3-29
+28        android:testOnly="true"
+29        android:theme="@style/AppThemeMaterial"
+29-->E:\Reliance\app\src\main\AndroidManifest.xml:19:3-42
+30        android:usesCleartextTraffic="true" >
+30-->E:\Reliance\app\src\main\AndroidManifest.xml:15:3-38
+31        <activity
+31-->E:\Reliance\app\src\main\AndroidManifest.xml:26:3-37:14
+32            android:name="com.reliance.yeticarpet.activity.login.LoginActivity"
+32-->E:\Reliance\app\src\main\AndroidManifest.xml:26:13-80
+33            android:exported="true"
+33-->E:\Reliance\app\src\main\AndroidManifest.xml:30:4-27
+34            android:noHistory="false"
+34-->E:\Reliance\app\src\main\AndroidManifest.xml:27:4-29
+35            android:theme="@style/AppTheme.NoActionBar"
+35-->E:\Reliance\app\src\main\AndroidManifest.xml:29:4-47
+36            android:windowSoftInputMode="adjustPan" >
+36-->E:\Reliance\app\src\main\AndroidManifest.xml:28:4-43
+37            <intent-filter>
+37-->E:\Reliance\app\src\main\AndroidManifest.xml:31:4-36:20
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\Reliance\app\src\main\AndroidManifest.xml:32:5-57
+38-->E:\Reliance\app\src\main\AndroidManifest.xml:32:13-54
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\Reliance\app\src\main\AndroidManifest.xml:34:5-65
+40-->E:\Reliance\app\src\main\AndroidManifest.xml:34:15-62
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.reliance.yeticarpet.activity.retailer.bill_details.BillDetailsActivity" />
+43-->E:\Reliance\app\src\main\AndroidManifest.xml:39:3-40:6
+43-->E:\Reliance\app\src\main\AndroidManifest.xml:39:13-102
+44        <activity
+44-->E:\Reliance\app\src\main\AndroidManifest.xml:41:3-46:6
+45            android:name="com.reliance.yeticarpet.activity.otp.OtpActivity"
+45-->E:\Reliance\app\src\main\AndroidManifest.xml:41:13-76
+46            android:exported="true"
+46-->E:\Reliance\app\src\main\AndroidManifest.xml:44:4-27
+47            android:noHistory="true"
+47-->E:\Reliance\app\src\main\AndroidManifest.xml:45:4-28
+48            android:screenOrientation="portrait"
+48-->E:\Reliance\app\src\main\AndroidManifest.xml:43:4-41
+49            android:windowSoftInputMode="adjustPan" />
+49-->E:\Reliance\app\src\main\AndroidManifest.xml:42:4-43
+50        <activity
+50-->E:\Reliance\app\src\main\AndroidManifest.xml:47:3-52:6
+51            android:name="com.reliance.yeticarpet.activity.forgotpassword.ForgotPasswordActivity"
+51-->E:\Reliance\app\src\main\AndroidManifest.xml:47:13-98
+52            android:exported="true"
+52-->E:\Reliance\app\src\main\AndroidManifest.xml:50:4-27
+53            android:noHistory="false"
+53-->E:\Reliance\app\src\main\AndroidManifest.xml:51:4-29
+54            android:screenOrientation="portrait"
+54-->E:\Reliance\app\src\main\AndroidManifest.xml:49:4-41
+55            android:windowSoftInputMode="adjustPan" />
+55-->E:\Reliance\app\src\main\AndroidManifest.xml:48:4-43
+56        <activity
+56-->E:\Reliance\app\src\main\AndroidManifest.xml:54:3-58:6
+57            android:name="com.reliance.yeticarpet.activity.retailer.bill.RetailerBillActivity"
+57-->E:\Reliance\app\src\main\AndroidManifest.xml:54:13-95
+58            android:exported="true"
+58-->E:\Reliance\app\src\main\AndroidManifest.xml:57:4-27
+59            android:screenOrientation="portrait"
+59-->E:\Reliance\app\src\main\AndroidManifest.xml:55:4-41
+60            android:windowSoftInputMode="adjustPan" />
+60-->E:\Reliance\app\src\main\AndroidManifest.xml:56:4-43
+61        <activity
+61-->E:\Reliance\app\src\main\AndroidManifest.xml:59:3-62:46
+62            android:name="com.reliance.yeticarpet.activity.retailer.dashboard.RetailerDashboardActivity"
+62-->E:\Reliance\app\src\main\AndroidManifest.xml:59:13-105
+63            android:exported="true"
+63-->E:\Reliance\app\src\main\AndroidManifest.xml:61:4-27
+64            android:screenOrientation="portrait"
+64-->E:\Reliance\app\src\main\AndroidManifest.xml:60:4-41
+65            android:windowSoftInputMode="adjustPan" />
+65-->E:\Reliance\app\src\main\AndroidManifest.xml:62:4-43
+66        <activity
+66-->E:\Reliance\app\src\main\AndroidManifest.xml:64:3-66:46
+67            android:name="com.reliance.yeticarpet.activity.retailer.monthly_tracker.MonthlyTrackerActivity"
+67-->E:\Reliance\app\src\main\AndroidManifest.xml:64:13-108
+68            android:screenOrientation="portrait"
+68-->E:\Reliance\app\src\main\AndroidManifest.xml:65:4-41
+69            android:windowSoftInputMode="adjustPan" />
+69-->E:\Reliance\app\src\main\AndroidManifest.xml:66:4-43
+70        <activity
+70-->E:\Reliance\app\src\main\AndroidManifest.xml:68:3-71:46
+71            android:name="com.reliance.yeticarpet.activity.userprofile.UserProfileActivity"
+71-->E:\Reliance\app\src\main\AndroidManifest.xml:68:13-92
+72            android:exported="true"
+72-->E:\Reliance\app\src\main\AndroidManifest.xml:70:4-27
+73            android:screenOrientation="portrait"
+73-->E:\Reliance\app\src\main\AndroidManifest.xml:69:4-41
+74            android:windowSoftInputMode="adjustPan" />
+74-->E:\Reliance\app\src\main\AndroidManifest.xml:71:4-43
+75        <activity
+75-->E:\Reliance\app\src\main\AndroidManifest.xml:73:3-76:46
+76            android:name="com.reliance.yeticarpet.activity.setting.SettingActivity"
+76-->E:\Reliance\app\src\main\AndroidManifest.xml:73:13-84
+77            android:exported="true"
+77-->E:\Reliance\app\src\main\AndroidManifest.xml:75:4-27
+78            android:screenOrientation="portrait"
+78-->E:\Reliance\app\src\main\AndroidManifest.xml:74:4-41
+79            android:windowSoftInputMode="adjustPan" />
+79-->E:\Reliance\app\src\main\AndroidManifest.xml:76:4-43
+80        <activity
+80-->E:\Reliance\app\src\main\AndroidManifest.xml:80:3-83:46
+81            android:name="com.reliance.yeticarpet.activity.changepassword.ChangePasswordActivity"
+81-->E:\Reliance\app\src\main\AndroidManifest.xml:80:13-98
+82            android:exported="true"
+82-->E:\Reliance\app\src\main\AndroidManifest.xml:82:4-27
+83            android:screenOrientation="portrait"
+83-->E:\Reliance\app\src\main\AndroidManifest.xml:81:4-41
+84            android:windowSoftInputMode="adjustPan" />
+84-->E:\Reliance\app\src\main\AndroidManifest.xml:83:4-43
+85        <activity
+85-->E:\Reliance\app\src\main\AndroidManifest.xml:85:3-88:46
+86            android:name="com.reliance.yeticarpet.activity.retailer.distributorlist.DistributorListActivity"
+86-->E:\Reliance\app\src\main\AndroidManifest.xml:85:13-109
+87            android:exported="true"
+87-->E:\Reliance\app\src\main\AndroidManifest.xml:87:4-27
+88            android:screenOrientation="portrait"
+88-->E:\Reliance\app\src\main\AndroidManifest.xml:86:4-41
+89            android:windowSoftInputMode="adjustPan" />
+89-->E:\Reliance\app\src\main\AndroidManifest.xml:88:4-43
+90        <activity
+90-->E:\Reliance\app\src\main\AndroidManifest.xml:91:3-94:46
+91            android:name="com.reliance.yeticarpet.activity.retailer.distributordetails.DistributorDetailsActivity"
+91-->E:\Reliance\app\src\main\AndroidManifest.xml:91:13-115
+92            android:exported="true"
+92-->E:\Reliance\app\src\main\AndroidManifest.xml:93:4-27
+93            android:screenOrientation="portrait"
+93-->E:\Reliance\app\src\main\AndroidManifest.xml:92:4-41
+94            android:windowSoftInputMode="adjustPan" />
+94-->E:\Reliance\app\src\main\AndroidManifest.xml:94:4-43
+95        <activity
+95-->E:\Reliance\app\src\main\AndroidManifest.xml:97:3-100:46
+96            android:name="com.reliance.yeticarpet.activity.distributor.retailerlist.PartyListActivity"
+96-->E:\Reliance\app\src\main\AndroidManifest.xml:97:13-103
+97            android:exported="true"
+97-->E:\Reliance\app\src\main\AndroidManifest.xml:99:4-27
+98            android:screenOrientation="portrait"
+98-->E:\Reliance\app\src\main\AndroidManifest.xml:98:4-41
+99            android:windowSoftInputMode="adjustPan" />
+99-->E:\Reliance\app\src\main\AndroidManifest.xml:100:4-43
+100        <activity
+100-->E:\Reliance\app\src\main\AndroidManifest.xml:102:3-105:46
+101            android:name="com.reliance.yeticarpet.activity.distributor.retailerdetails.PartyListDetailsActivity"
+101-->E:\Reliance\app\src\main\AndroidManifest.xml:102:13-113
+102            android:exported="true"
+102-->E:\Reliance\app\src\main\AndroidManifest.xml:104:4-27
+103            android:screenOrientation="portrait"
+103-->E:\Reliance\app\src\main\AndroidManifest.xml:103:4-41
+104            android:windowSoftInputMode="adjustPan" />
+104-->E:\Reliance\app\src\main\AndroidManifest.xml:105:4-43
+105
+106        <provider
+106-->[com.amitshekhar.android:debug-db:1.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\51c76a48e5920ccb722be5ca098ae1d4\transformed\jetified-debug-db-1.0.1\AndroidManifest.xml:33:9-37:40
+107            android:name="com.amitshekhar.DebugDBInitProvider"
+107-->[com.amitshekhar.android:debug-db:1.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\51c76a48e5920ccb722be5ca098ae1d4\transformed\jetified-debug-db-1.0.1\AndroidManifest.xml:34:13-63
+108            android:authorities="com.reliance.yeticarpet.DebugDBInitProvider"
+108-->[com.amitshekhar.android:debug-db:1.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\51c76a48e5920ccb722be5ca098ae1d4\transformed\jetified-debug-db-1.0.1\AndroidManifest.xml:35:13-71
+109            android:enabled="true"
+109-->[com.amitshekhar.android:debug-db:1.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\51c76a48e5920ccb722be5ca098ae1d4\transformed\jetified-debug-db-1.0.1\AndroidManifest.xml:36:13-35
+110            android:exported="false" />
+110-->[com.amitshekhar.android:debug-db:1.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\51c76a48e5920ccb722be5ca098ae1d4\transformed\jetified-debug-db-1.0.1\AndroidManifest.xml:37:13-37
+111
+112        <activity
+112-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+113            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+113-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+114            android:excludeFromRecents="true"
+114-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+117        <!--
+118            Service handling Google Sign-In user revocation. For apps that do not integrate with
+119            Google Sign-In, this service will never be started.
+120        -->
+121        <service
+121-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+122            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+122-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+123            android:exported="true"
+123-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+124            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+124-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+125            android:visibleToInstantApps="true" />
+125-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\9a697f63f01c6a35a9578049300b1d1f\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\4a1f8b6e5b9c9ed4a4780eda9a44efb0\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\4a1f8b6e5b9c9ed4a4780eda9a44efb0\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\4a1f8b6e5b9c9ed4a4780eda9a44efb0\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\4a1f8b6e5b9c9ed4a4780eda9a44efb0\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\fca2c69f4ded3137f20f6fb797756c70\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\fca2c69f4ded3137f20f6fb797756c70\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\fca2c69f4ded3137f20f6fb797756c70\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+135
+136        <provider
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\7cf75e89f0496b3583a6fa0168e62146\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\7cf75e89f0496b3583a6fa0168e62146\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+138            android:authorities="com.reliance.yeticarpet.androidx-startup"
+138-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\7cf75e89f0496b3583a6fa0168e62146\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+139            android:exported="false" >
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\7cf75e89f0496b3583a6fa0168e62146\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+140            <meta-data
+140-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\7cf75e89f0496b3583a6fa0168e62146\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+141-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\7cf75e89f0496b3583a6fa0168e62146\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+142                android:value="androidx.startup" />
+142-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\7cf75e89f0496b3583a6fa0168e62146\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\967b4732744c28919db2f7eebb117f8e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\967b4732744c28919db2f7eebb117f8e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\967b4732744c28919db2f7eebb117f8e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+146        </provider>
+147        <provider
+147-->[com.chibatching.kotpref:initializer:2.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\a045c3d91ac9c60afd3bb6872fdea384\transformed\jetified-initializer-2.5.0\AndroidManifest.xml:11:9-15:40
+148            android:name="com.chibatching.kotpref.initializer.KotprefInitProvider"
+148-->[com.chibatching.kotpref:initializer:2.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\a045c3d91ac9c60afd3bb6872fdea384\transformed\jetified-initializer-2.5.0\AndroidManifest.xml:12:13-83
+149            android:authorities="com.reliance.yeticarpet.kotprefinitprovider"
+149-->[com.chibatching.kotpref:initializer:2.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\a045c3d91ac9c60afd3bb6872fdea384\transformed\jetified-initializer-2.5.0\AndroidManifest.xml:13:13-71
+150            android:enabled="true"
+150-->[com.chibatching.kotpref:initializer:2.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\a045c3d91ac9c60afd3bb6872fdea384\transformed\jetified-initializer-2.5.0\AndroidManifest.xml:14:13-35
+151            android:exported="false" />
+151-->[com.chibatching.kotpref:initializer:2.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\a045c3d91ac9c60afd3bb6872fdea384\transformed\jetified-initializer-2.5.0\AndroidManifest.xml:15:13-37
+152
+153        <service
+153-->[androidx.room:room-runtime:2.4.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\c34d31c86e61abfd96631f45954f5398\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+154            android:name="androidx.room.MultiInstanceInvalidationService"
+154-->[androidx.room:room-runtime:2.4.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\c34d31c86e61abfd96631f45954f5398\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+155            android:directBootAware="true"
+155-->[androidx.room:room-runtime:2.4.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\c34d31c86e61abfd96631f45954f5398\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+156            android:exported="false" />
+156-->[androidx.room:room-runtime:2.4.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-3\c34d31c86e61abfd96631f45954f5398\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+157    </application>
+158
+159</manifest>

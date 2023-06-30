@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yeti Carpet</string>
+
+    <string name="login_title_name">Login</string>
+    <string name="login_username_text">User name</string>
+    <string name="login_input_uservalue">User name</string>
+    <string name="login_password_text">Enter your password</string>
+    <string name="login_password_inputValue">Type your password here</string>
+    <string name="login_remember_me">Remember me?</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_submit">LOGIN</string>
+    <string name="login_error_message">Please enter correct login credentials</string>
+    <string name="login_session_error_message">	Your session has expired. Please log in again to continue using the app.</string>
+    <string name="login_user_portal_message">You didn\'t logged in as retailer. Your portal will be ready soon. Thank you</string>
+    <string name="forget_password_headertext">Forget Password</string>
+    <string name="forget_password_username_text">VAT/PAN or Username</string>
+    <string name="forget_password_edit_text_username">Lorem lorem</string>
+    <string name="forget_password_submit">SUBMIT</string>
+    <string name="forget_password_redirect">Redirect to Login</string>
+
+    <string name="otp_headertext">OTP Form</string>
+    <string name="otp_subheader">OTP</string>
+
+    <!--Login Authentication Error -->
+    <string name="login_validation_errors_button_operation">OK</string>
+    <string name="login_validation_errors_title">Oops!</string>
+    <string name="login_validation_errors_subtitle"> Your email was not verified. So, we will send the OTP signal again, please confirm. </string>
+    <string name="forgot_validation_errors_subtitle"> Your email will not be registered. Please register. </string>
+    <string name="error_dialog_button">OK</string>
+    <string name="dashboard_bills">Bills</string>
+    <string name="processing">Processing..</string>
+
+
+    <!--	Fiscal Year Dialog-->
+    <string name="fiscal_year_dialog_header_name">Fiscal year</string>
+    <string name="fiscal_year_dialog_subheader">Select the date for fiscal year</string>
+
+
+    <!--bills-->
+    <string name="bills_header_name">Bills</string>
+    <string name="bills_status_all">All</string>
+    <string name="bills_status_complete">Completed</string>
+    <string name="bills_status_pending">Pending</string>
+    <string name="bills_filter"> Filter</string>
+    <string name="bills_showing_filter">Showing</string>
+    <string name="bills_showing_enteries">entries</string>
+
+
+    <string name="bills_entry_number">Bill No.T179–1224</string>
+    <string name="bills_date">2079–12-13</string>
+    <string name="bills_amount">Rs. 137,396.25</string>
+
+    <!--Filter-->
+    <string name="bills_retailer_filter">Filter</string>
+    <string name="bills_retailer_from_date">From Date</string>
+    <string name="bills_retailer_to_date">To Date</string>
+    <string name="bills_retailer_distributor">Distributor</string>
+    <string name="bills_retailer_bill_no">Bill No.</string>
+    <string name="bills_retailer_apply">APPLY</string>
+    <string name="billNumber">Bill No.</string>
+
+
+    <!--Bill Details -->
+    <string name="billDetails">Bill Details</string>
+    <string name="bill_details_bill_no">Bill No.T259-1224</string>
+    <string name="bill_details_completed">Completed</string>
+    <string name="bill_details_not_completed">Not Completed</string>
+    <string name="bill_details_retailer_name">SHREE GANESH FURNITURES</string>
+    <string name="bill_details_date">2079-12-13</string>
+    <string name="bill_details_metro_name">Butwal Sub-Metropolitian City</string>
+
+    <string name="bill_details_district">RUPANDEHI,</string>
+    <string name="bill_details_province_name">LUMBINI PROVINCE</string>
+
+
+    <string name="bill_details_phone_number">Phone: 9857026356</string>
+    <string name="bill_details_pvc">PVC Flooring</string>
+    <string name="bill_details_calio">CALIO</string>
+
+    <string name="bill_details_calio_price">Rs. 121,590.00</string>
+    <string name="bill_details_calio_max">CALIO MAX</string>
+    <string name="bill_details_calio_max_price">Rs. 0</string>
+    <string name="bill_details_calio_ultra">CALIO ULTRA</string>
+    <string name="bill_details_calio_ultra_price">Rs. 121,590.00</string>
+    <string name="bill_details_calio_total_amount">Total Amount </string>
+    <string name="bill_details_calio_total_amount_digit">:Rs.0</string>
+    <string name="bill_details_vat_amount">Total VAT Amount </string>
+    <string name="bill_details_vat_amount_digit">: Rs. 0</string>
+    <string name="bill_details_phone">Phone :</string>
+    <string name="spinner_select">Select</string>
+
+    <!--Retailer dashboard-->
+    <string name="retailer_dashboard_heading">Hello,</string>
+
+    <string name="retailer_dashboard_heading_retailer_name">Retailer</string>
+    <string name="total_transaction">Total Transaction</string>
+    <string name="total_transaction_amount">Rs.1,173,038,612.82</string>
+    <string name="total_transcation_pre_vat">(Pre-VAT - After Discount)</string>
+
+    <string name="total_approved_transcation">Total Approved Transcation</string>
+    <string name="total_scheme">Total Scheme </string>
+    <string name="total_scheme_amount">Rs.10,128,444.55</string>
+
+    <!--Nepali Calendar-->
+    <string name="date_converter_dialog_header_nepali">Select Nepali Date</string>
+    <string name="date_converter_dialog_year"> Year </string>
+    <!--Date Converter-->
+    <string name="date_converter_header">Convert Date</string>
+    <string name="date_converter_header_english"> July 26, 2021</string>
+    <string name="date_converter_convertertext">A.D.-B.S.</string>
+    <string name="date_converter_convertertext_2">B.S.- A.D. </string>
+    <string name="date_converter_submitbtn">Change</string>
+    <string name="date_converter_dialog_heading"> Select English Date </string>
+    <string name="date_converter_dialog_month"> Month </string>
+    <string name="date_converter_dialog_day"> Day </string>
+    <string name="date_converter_dialog_ok"> OK </string>
+    <string name="date_converter_dialog_cancel"> Cancel </string>
+
+
+    <string name="annual_scheme_title">Annual Scheme</string>
+    <string name="current_offer_title">CURRENT OFFER</string>
+    <string name="current_offer_value">0.25%</string>
+    <string name="scheme_earned_title">SCHEME EARNED</string>
+    <string name="scheme_earned_value">Rs.1,028.83</string>
+    <string name="category_scheme_title">Category Scheme</string>
+    <string name="category_offer_title">CURRENT OFFER</string>
+    <string name="category_offer_value">3%</string>
+    <string name="category_scheme_earned_title">SCHEME EARNED</string>
+    <string name="category_scheme_earned_value">Rs 870,366.43</string>
+    <string name="monthly_target_tracker_title">Monthly Target Tracker</string>
+    <string name="required_purchase_title">Required Purchase</string>
+    <string name="average_purchase_title">Average Purchase</string>
+    <string name="target_1_value">1%</string>
+    <string name="target_1_required_purchase_value">Rs 62,500.00</string>
+    <string name="target_1_average_purchase_value">Rs 3,583,475.60</string>
+    <string name="target_2_value">2%</string>
+    <string name="target_2_required_purchase_value">Rs 108,333.33</string>
+    <string name="target_2_average_purchase_value">Rs 3,583,475.60</string>
+    <string name="target_3_value">3%</string>
+    <string name="target_3_required_purchase_value">Rs 208,333.33</string>
+    <string name="target_3_average_purchase_value">Rs 3,583,475.60</string>
+    <string name="retailer_dashboard_retailer_total_purchase">Total Purchase</string>
+    <string name="retailer_dashboard_retailer_total_purchase_amount">Rs 411,531.43</string>
+    <string name="retailer_dashboard_retailer_scheme_earned">Scheme Earned</string>
+    <string name="retailer_dashboard_retailer_total_purchase_scheme_units">Rs Rs 1,028.83</string>
+
+    <string-array name="nepali_number">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+
+    <string-array name="nepali_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="months_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+    <!--Monthly tracker-->
+    <string name="monthly_target_tracker_header">Monthly Target Tracker</string>
+    <string name="coil_mat">1%</string>
+    <string name="non_woven_carpet">2%</string>
+    <string name="pvc_flooring">3%</string>
+    <string name="coil_mat_max_price">0</string>
+    <string name="coil_mat_min_price">/4,166.67</string>
+    <string name="coil_rs_text">Rs.</string>
+
+    <string name="non_woven_carpet_price">Rs. 121,590.00 / 12,500.00</string>
+    <string name="pvc_flooring_price">Rs. 2,597,208.77 / 33,333.33</string>
+    <string name="tufted_carpet_price">Rs. 504,558.27 / 12,500.00</string>
+    <string name="retailer_required_monthly_purchase_cost">0</string>
+    <string name="retailer_current_monthly_purchase">Current Average Monthly Purchase</string>
+    <string name="retailer_required_monthly_purchase">Required Average Monthly Purchase</string>
+
+
+    <!--Charts-->
+    <string name="zero">0</string>
+    <string name="requiredPurchase">Required Purchase</string>
+    <string name="averagedPurchase">Average Purchase</string>
+
+    <!--User Setting-->
+    <string name="settings">Menu</string>
+    <string name="user">User</string>
+    <string name="profile">Profile</string>
+    <string name="changePassword">Change Password</string>
+    <string name="twoFactorAuth">Two Factor Authentication</string>
+    <string name="data">Data</string>
+    <string name="bill">Bill</string>
+    <string name="distributorList">Distributor List</string>
+    <string name="logout">LOGOUT</string>
+    <string name="distributorPortal">DISTRIBUTOR PORTAL (CONVENIENCE)</string>
+    <string name="adminPortal">ADMIN PORTAL (CONVENIENCE)</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">Change Password</string>
+    <string name="form">Form</string>
+    <string name="password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="old_password_hint">Enter your old password</string>
+
+
+    <string name="asterisk">*</string>
+    <string name="password_hint">Enter your new password</string>
+    <string name="reenter_password">Re-enter Password *</string>
+    <string name="reenter_password_hint">Re-enter Your Password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="discard">DISCARD</string>
+
+    <!--distributor list-->
+    <string name="distributor_name">B.N.R.O. TRADERS</string>
+    <string name="distributor_amount_rs">Rs</string>
+    <string name="distributor_amount_digit">137,396.25</string>
+    <string name="distributor_list_header">Distributor List</string>
+
+
+    <!--	Distributor Details-->
+    <string name="distributor_name_details_page">Shree Ganesh Furniture</string>
+    <string name="distributor_total_amount">Total Amount</string>
+    <string name="distributor_total_vat_amount">Total VAT Amount</string>
+    <string name="distributor_current_scheme">Current Scheme</string>
+    <string name="distributor_details_title">Distributor Details</string>
+
+
+    <!--Distributor Dashboard-->
+    <string name="distributor_dashboard_top_retailer">Top Retailers</string>
+    <string name="distributor_dashboard_see_more">SEE MORE</string>
+    <string name="distributor_dashboard_monthly_sales">Total Sales</string>
+    <string name="distributor_dashboard_monthly_sales_price">Rs.10,107,737.51</string>
+    <string name="distributor_dashboard_distributor_hello">Hello,</string>
+    <string name="distributor_dashboard_distributor_name">Distributor</string>
+    <string name="distributor_dashboard_month_unit">4M</string>
+
+    <string name="distributor_dashboard_distributor_pre_vat">(Pre VAT - After Discount)</string>
+
+
+    <!--Party List-->
+    <string name="distributor_party_list">Party List</string>
+
+
+    <!--Party List Details-->
+    <string name="party_list_details_heading">Total Summary</string>
+    <string name="party_list_name">POKHAREL ENTERPRISES</string>
+    <string name="tuffed_carpet">Tuffed Carpet</string>
+    <string name="pvc_floorings">PVC Flooring</string>
+    <string name="coil_mate">Coil Mat</string>
+    <string name="non_wooven_carpet">Non-Woven Carpet</string>
+</resources>

@@ -1,0 +1,554 @@
+[
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_monthly_target_tracker.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/monthly_target_tracker.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_bill_details_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/bill_details_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_nav_home_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/nav_home_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_distributor_dashboard_retailer_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/distributor_dashboard_retailer_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_login_button.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/login_button.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_login.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_distributor_list.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_distributor_list.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_up_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/up_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_retailer_bill.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_retailer_bill.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_month_list_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/month_list_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_databilllayout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/databilllayout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_progress_inactive.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/progress_inactive.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/xml_network_security_config.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_spinner_custom_dropdown.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_spinner_custom_dropdown.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_top_retailer_graph_up.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/top_retailer_graph_up.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_data_distributor_list_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/data_distributor_list_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_bar_graph_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/bar_graph_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_network.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/network.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/raw_scheme_yetiflooring_com.pem.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/raw/scheme_yetiflooring_com.pem"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_dashboard_retailer_shape.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/dashboard_retailer_shape.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_nav_setting.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/nav_setting.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_data_retailers_bill_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/data_retailers_bill_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/raw_scheme_yetiflooring.pem.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/raw/scheme_yetiflooring.pem"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_bottom_navigation.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/bottom_navigation.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_user_setting_fragment.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/user_setting_fragment.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_horizontal_bar_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/horizontal_bar_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_filter.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/filter.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_bills_all_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/bills_all_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_bolditalic.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_bolditalic.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_dot_line.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/dot_line.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_submit_btn_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/submit_btn_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_distributor_approved_transcations.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/distributor_approved_transcations.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_calendar_button.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/calendar_button.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_error_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/error_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_black.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_black.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_logo.png.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/logo.png"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_nav_bills.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/nav_bills.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_retailer_dashboard_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/retailer_dashboard_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_distributor_details_activity.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/distributor_details_activity.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_drop_down.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/drop_down.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_button_up_arrow.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/button_up_arrow.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_login_error_button.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/login_error_button.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_graph_icon_circle.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/graph_icon_circle.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_search_filter_dashboard.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/search_filter_dashboard.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_before_btn_operation_backgroundcolor.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/before_btn_operation_backgroundcolor.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_progressbar_selector.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/progressbar_selector.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_bold.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_spinner_date.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/spinner_date.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_nepali_date_picker_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/nepali_date_picker_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_bottom_navigationselector_color.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/bottom_navigationselector_color.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_party_list_activity.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/party_list_activity.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_user_setting.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_user_setting.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_custom_spinner_items.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_custom_spinner_items.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/raw_certificate.pem.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/raw/certificate.pem"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_thin.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_thin.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_light.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_light.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_main_fragment_dashboard_retailer_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/main_fragment_dashboard_retailer_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_dialog_progress_bar.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/dialog_progress_bar.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_keyboard_arrow_right_24.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_nav_userprofile_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/nav_userprofile_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_thinitalic.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_thinitalic.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_bill_status_data_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/bill_status_data_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_distributor_data_sales_pvc_flooring.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/distributor_data_sales_pvc_flooring.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_logout_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/logout_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_retailer_background_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/retailer_background_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_linewhite.png.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/linewhite.png"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_partylist_details_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/partylist_details_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_main_fragment_distributor_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/main_fragment_distributor_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_otp.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_otp.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_filter_line.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/filter_line.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_annual_scheme_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/annual_scheme_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_spinner_item.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_searchbar_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/searchbar_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_dashboard_recyclerview.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/dashboard_recyclerview.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_inner_calendar.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/inner_calendar.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_nav_bills_nocolor.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/nav_bills_nocolor.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_nav_retailer_dashboard_distributor.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/nav_retailer_dashboard_distributor.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_solid.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/solid.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_change_password.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/change_password.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_username_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/username_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_regular.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_search_cross.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/search_cross.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_user_profile.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/user_profile.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_horizontal_tracker_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/horizontal_tracker_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_distributor_transcation_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/distributor_transcation_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_monthly_tracker_no_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/monthly_tracker_no_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_change_btnoperation_backgroundcolor.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/change_btnoperation_backgroundcolor.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_checkbox_dropdown_selector.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/checkbox_dropdown_selector.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_fragment_dashboard_distributor.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/fragment_dashboard_distributor.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_navigation_center_calendar_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/navigation_center_calendar_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_filter_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/filter_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_distributor_dashboard_line.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/distributor_dashboard_line.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_bar_graph.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/bar_graph.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_retailer_icon_drop.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/retailer_icon_drop.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/xml_provider_paths.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_user_profile_data_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/user_profile_data_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_submit_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/submit_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_distributor_data_top_retailers.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/distributor_data_top_retailers.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_data_distributor_list.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/data_distributor_list.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_italic.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_italic.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_blackitalic.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_blackitalic.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_navigation_circle.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/navigation_circle.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_line.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/line.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_deep_blue_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/deep_blue_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_forget_password.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_bill_details.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/bill_details.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_checkbox_monthly_tracker.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/checkbox_monthly_tracker.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_bills_pending_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/bills_pending_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_lightitalic.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_lightitalic.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_retailer_transcation_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/retailer_transcation_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_discard_btn_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/discard_btn_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_dashboard_retailer.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_dashboard_retailer.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_fiscal_year_dialoglayout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/fiscal_year_dialoglayout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_spinner_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_email_validation_error.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/email_validation_error.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_dashboard_distributor_chart_data_category.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/dashboard_distributor_chart_data_category.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_fragment_retailer_bill.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/fragment_retailer_bill.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_arrow_forward.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/arrow_forward.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_filter_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/filter_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_mediumitalic.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_mediumitalic.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_toolbar_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/toolbar_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_retailer_scheme_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/retailer_scheme_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_distributor_layout_transcations.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/distributor_layout_transcations.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_progress_active.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/progress_active.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_party_list_details_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/party_list_details_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_activity_user_profile_layout.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/activity_user_profile_layout.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_spinner.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/spinner.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_monthly_target_tracker_data.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/monthly_target_tracker_data.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_nav_setting_icon.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/nav_setting_icon.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_fragment_userprofile.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/fragment_userprofile.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_password_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/password_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/font_roboto_medium.ttf.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/layout_fragment_dashboard_retailer.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/layout/fragment_dashboard_retailer.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_bottom_navigation_item_background.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "com.reliance.yeticarpet.app-merged_res-58:/drawable_background_filterfield.xml.flat",
+        "source": "com.reliance.yeticarpet.app-main-60:/drawable/background_filterfield.xml"
+    }
+]

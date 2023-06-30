@@ -1,0 +1,187 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:fillViewport="true">
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+		<RelativeLayout
+			android:id="@+id/my_toolbar_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/dashboard_retailer_shape"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/tv_distributor_hello"
+				style="@style/text_roboto_600wt_28sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/_10sdp"
+				android:layout_marginTop="@dimen/_20sdp"
+				android:text="@string/distributor_dashboard_distributor_hello" />
+			
+			<TextView
+				android:id="@+id/tv_distributor_name"
+				style="@style/text_roboto_600wt_28sp"
+				android:layout_below="@+id/tv_distributor_hello"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/_10sdp"
+				android:text="@string/distributor_dashboard_distributor_name" />
+			
+			<RelativeLayout
+				android:id="@+id/rlMain"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_below="@+id/tv_distributor_name"
+				android:background="@color/colorWhite">
+				
+				<include
+					android:id="@+id/inDashboard"
+					layout="@layout/distributor_layout_transcations"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent" />
+			</RelativeLayout>
+		
+		</RelativeLayout>
+		
+		<RelativeLayout
+			android:id="@+id/rlChartDescription"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/my_toolbar_layout"
+			android:layout_margin="@dimen/_10sdp">
+			
+			<RelativeLayout
+				android:id="@+id/rl_monthly_target_tracker"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				
+				<TextView
+					android:id="@+id/rl_monthly_sales"
+					style="@style/text_roboto_26sp_600_black"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_13sdp"
+					android:layout_marginBottom="@dimen/_5sdp"
+					android:text="@string/distributor_dashboard_monthly_sales" />
+				
+				<TextView
+					android:id="@+id/tv_monthly_sales_cost"
+					style="@style/text_roboto_28sp_700_95percentage_opacity"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/rl_monthly_sales"
+					android:layout_marginBottom="@dimen/_15sdp"
+					android:text="@string/distributor_dashboard_monthly_sales_price" />
+			</RelativeLayout>
+			
+			<RelativeLayout
+				android:id="@+id/rl_chart_horizontal_category"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/rl_monthly_target_tracker"
+				android:layout_marginTop="@dimen/_5sdp">
+				
+				<include
+					android:id="@+id/monthly_category_recyclerview_include"
+					layout="@layout/dashboard_recyclerview"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/rl_month_list"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_below="@+id/rl_chart_horizontal_category"
+				android:layout_marginTop="@dimen/_15sdp">
+
+				<include
+					android:id="@+id/month_data_recyclerview_include"
+					layout="@layout/dashboard_recyclerview"
+					android:layout_centerHorizontal="true"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</RelativeLayout>
+
+
+			
+			<RelativeLayout
+				android:id="@+id/rl_charts"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/_100sdp"
+				android:layout_marginBottom="@dimen/_13sdp"
+				android:layout_below="@+id/rl_month_list">
+				
+				<com.github.mikephil.charting.charts.LineChart
+					android:id="@+id/lineChart"
+					android:layout_width="@dimen/_500sdp"
+					android:layout_height="@dimen/_150sdp"
+					android:layout_marginTop="@dimen/_10sdp"
+					android:visibility="visible" />
+
+			</RelativeLayout>
+			
+			<RelativeLayout
+				android:id="@+id/rlTopRetailersBar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/rl_charts">
+				
+				<RelativeLayout
+					android:id="@+id/rlDashboardLayout"
+					android:layout_width="@dimen/_28sdp"
+					android:layout_height="@dimen/_28sdp"
+					android:background="@drawable/distributor_dashboard_line" />
+				
+				<TextView
+					android:id="@+id/tvTopRetailer"
+					style="@style/text_roboto_600wt_24sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginStart="@dimen/_10sdp"
+					android:layout_toEndOf="@+id/rlDashboardLayout"
+					android:text="@string/distributor_dashboard_top_retailer" />
+				
+				<RelativeLayout
+					android:id="@+id/rlTopRetailers"
+					android:layout_width="@dimen/_90sdp"
+					android:layout_marginEnd="@dimen/_10sdp"
+					android:layout_height="@dimen/_28sdp"
+					android:layout_alignParentEnd="true"
+					android:layout_centerVertical="true"
+					android:background="@drawable/submit_btn_background">
+
+					<TextView
+						style="@style/text_roboto_700wt_12sp_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						android:layout_centerVertical="true"
+						android:text="@string/distributor_dashboard_see_more" />
+				</RelativeLayout>
+			</RelativeLayout>
+			
+			<RelativeLayout
+				android:id="@+id/rlTopRetailersList"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/rlTopRetailersBar"
+				android:layout_marginTop="@dimen/_15sdp">
+				
+				<include
+					android:id="@+id/distributor_dashboard_retailer_list_items_recyclerview_include"
+					layout="@layout/dashboard_recyclerview"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+			</RelativeLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

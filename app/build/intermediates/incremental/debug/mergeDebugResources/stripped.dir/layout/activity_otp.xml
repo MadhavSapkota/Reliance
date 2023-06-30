@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/root_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:orientation="vertical">
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="@dimen/margin">
+		
+		<ImageView
+			android:id="@+id/backgroundImage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerInParent="true"
+			android:layout_gravity="center"
+			android:layout_marginTop="@dimen/_20sdp"
+			android:background="@drawable/logo" />
+		
+		
+		<RelativeLayout
+			android:id="@+id/rlTextField"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/backgroundImage"
+			android:layout_marginTop="@dimen/_38sdp">
+			
+			<TextView
+				android:id="@+id/tv_otp"
+				style="@style/text_header_700wt_32sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentStart="true"
+				android:text="@string/otp_headertext" />
+			
+			<TextView
+				android:id="@+id/tvGetStarted"
+				style="@style/text_600wt_20sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tv_otp"
+				android:layout_marginTop="@dimen/textItemsPadding"
+				android:text="@string/otp_subheader" />
+			
+			
+			<EditText
+				android:id="@+id/et_otp"
+				style="@style/text_400wt_17sp"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/editTextViewHeight"
+				android:layout_below="@+id/tvGetStarted"
+				android:layout_marginTop="@dimen/_14sdp"
+				android:background="@drawable/username_background"
+				android:hint="@string/login_input_uservalue"
+				android:paddingLeft="@dimen/itemPadding" />
+			
+			<Button
+				android:id="@+id/btn_submit"
+				style="@style/text_roboto_700wt_20sp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/et_otp"
+				android:layout_marginTop="@dimen/_35sdp"
+				android:background="@drawable/submit_background"
+				android:text="@string/forget_password_submit" />
+			
+			<TextView
+				android:id="@+id/tvRedirectLogin"
+				style="@style/text_roboto_400wt_17sp"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="@dimen/_15sdp"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/btn_submit"
+				android:layout_alignParentRight="true"
+				android:text="@string/forget_password_redirect" />
+		</RelativeLayout>
+	</RelativeLayout>
+</LinearLayout>
+

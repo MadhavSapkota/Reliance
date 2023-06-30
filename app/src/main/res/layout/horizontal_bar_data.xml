@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:background="@color/whiteOpacity"
+	android:layout_height="wrap_content">
+	
+	
+	
+	<RelativeLayout
+		android:id="@+id/rlLayoutTop"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:layout_width="wrap_content">
+		
+		<RelativeLayout
+			android:id="@+id/rl_percentage"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentStart="true"
+			android:layout_width="wrap_content">
+			
+			
+			<TextView
+				android:id="@+id/value_percentage"
+				android:layout_height="wrap_content"
+				android:layout_width="@dimen/_50sdp"
+				style="@style/text_16sp_400_sixtypercentage_opacity"
+				android:text="@string/category_offer_value"
+				android:layout_marginBottom="@dimen/_2sdp"
+				android:layout_gravity="center_vertical"/>
+		</RelativeLayout>
+		
+		<RelativeLayout
+			android:layout_toEndOf="@+id/rl_percentage"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_width="wrap_content">
+			
+			
+		<TextView
+			android:id="@+id/tv_minimum_amount"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			style="@style/text_16sp_400_colorOpacity70percent"
+			android:text="@string/scheme_earned_title"
+			android:layout_marginBottom="@dimen/_2sdp"
+			android:layout_gravity="center_vertical"/>
+	
+	<View
+		android:id="@+id/view2"
+		android:layout_height="@dimen/_50sdp"
+		android:layout_below="@+id/tv_minimum_amount"
+		android:layout_width="@dimen/_1sdp">
+	</View>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1.34dp"
+				android:layout_centerVertical="true"
+				android:background="@drawable/dot_line" />
+			
+			
+			
+			
+			<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/tv_minimum_amount"
+				android:layout_marginEnd="@dimen/_50sdp"
+			android:background="@drawable/bar_graph_background"
+			android:layout_width="wrap_content">
+			
+			
+
+	
+	<View
+		android:id="@+id/view"
+		android:layout_height="@dimen/_40sdp"
+		android:layout_marginEnd="@dimen/_20sdp"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="@dimen/_8sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:layout_marginStart="@dimen/_1sdp"
+		android:background="@drawable/submit_btn_background"/>
+		
+		<TextView
+			android:id="@+id/value_text"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			style="@style/text_16sp_600_colorWhite"
+			android:text="@string/scheme_earned_title"
+			android:layout_marginStart="@dimen/_16sdp"
+			android:layout_gravity="center_vertical"/>
+		</RelativeLayout>
+	</RelativeLayout>
+	</RelativeLayout>
+
+</RelativeLayout>

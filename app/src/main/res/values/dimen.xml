@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">14</dimen>
+    <dimen name="margin">@dimen/_15sdp</dimen>
+    <dimen name="itemPadding">@dimen/_8sdp</dimen>
+    <dimen name="editTextViewHeight">@dimen/_40sdp</dimen>
+    <dimen name="textItemsPadding">@dimen/_23sdp</dimen>
+    <dimen name="marginTopBottom">@dimen/_11sdp</dimen>
+</resources>

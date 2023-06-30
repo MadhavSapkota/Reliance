@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	
+	<RelativeLayout
+       android:id="@+id/rlCard"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/_50sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:background="@drawable/data_distributor_list_background">
+		
+		<RelativeLayout
+			android:id="@+id/rlTraderName"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginEnd="@dimen/_20sdp"
+			android:layout_width="wrap_content">
+			
+		<TextView
+			android:id="@+id/tv_distributor_list_name"
+			style="@style/text_400wt_16sp_90opacity"
+			android:layout_width="wrap_content"
+			android:layout_marginStart="@dimen/_10sdp"
+			android:layout_height="wrap_content"
+			android:text="@string/distributor_name" />
+		</RelativeLayout>
+		
+		<View
+			android:id="@+id/view_line"
+			android:layout_width="@dimen/_50sdp"
+			android:layout_centerVertical="true"
+			android:layout_toEndOf="@+id/rlTraderName"
+			android:layout_height="@dimen/_1sdp" />
+		
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginStart="@dimen/_20sdp"
+			android:layout_marginEnd="@dimen/_10sdp"
+			android:layout_alignParentEnd="true">
+			
+			<TextView
+				android:id="@+id/tv_distributor_rs"
+				android:layout_width="wrap_content"
+				style="@style/text_400wt_20_95percentage_opacity"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="@dimen/_5sdp"
+				android:text="@string/distributor_amount_rs" />
+			
+			<TextView
+				android:id="@+id/tv_distributor_rs_digit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/text_700wt_20_95percentage_opacity"
+				android:layout_toEndOf="@+id/tv_distributor_rs"
+				android:text="@string/distributor_amount_digit" />
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

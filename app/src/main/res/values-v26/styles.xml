@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="text_header_700">
+		<item name="android:textSize">32sp</item>
+		<item name="android:fontFamily">@font/roboto_regular</item>
+		<item name="android:textColor">@color/colorBlack</item>
+		<item name="android:fontWeight">700</item>
+	</style>
+</resources>

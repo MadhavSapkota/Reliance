@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:orientation="vertical"
+	android:layout_marginEnd="@dimen/_5sdp"
+	android:layout_height="wrap_content">
+	
+	
+	<RelativeLayout
+		android:id="@+id/rl_pvcFlooring"
+		android:layout_width="wrap_content"
+		android:background="@drawable/monthly_tracker_no_background"
+		android:layout_height="@dimen/_20sdp">
+		
+		<TextView
+			android:id="@+id/tv_itemName"
+			style="@style/text_roboto_500wt_11sp_white"
+			android:layout_width="wrap_content"
+
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginStart="@dimen/_10sdp"
+			android:layout_marginEnd="@dimen/_10sdp"
+			android:text="@string/bill_details_pvc" />
+	</RelativeLayout>
+</LinearLayout>

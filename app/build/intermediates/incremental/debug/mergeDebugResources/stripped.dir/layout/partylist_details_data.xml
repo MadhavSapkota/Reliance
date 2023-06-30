@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_pvcFlooring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_calio"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tv_PcvFlooring"
+            style="@style/text_roboto_400wt1_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="@string/pvc_floorings" />
+
+        <TextView
+            android:id="@+id/tv_PvcFlooringPrice"
+            style="@style/text_roboto_700wt_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="@string/bill_details_calio_max_price" />
+
+
+        <View
+            android:id="@+id/view_linem"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/tv_PvcFlooringPrice"
+            android:background="@color/colorLineBar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_tufffedCarpet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_calio"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tv_tuffedCarpet"
+            style="@style/text_roboto_400wt1_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="@string/tuffed_carpet" />
+
+        <TextView
+            android:id="@+id/tv_tuffedCarpet_price"
+            style="@style/text_roboto_700wt_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="@string/bill_details_calio_max_price" />
+
+
+        <View
+            android:id="@+id/view_tuffedcarpet"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/tv_tuffedCarpet_price"
+            android:background="@color/colorLineBar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_coilMat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_calio"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tv_coilMat"
+            style="@style/text_roboto_400wt1_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="@string/coil_mate" />
+
+        <TextView
+            android:id="@+id/tv_coilMat_price"
+            style="@style/text_roboto_700wt_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="@string/bill_details_calio_max_price" />
+
+
+        <View
+            android:id="@+id/view_coilMat"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/tv_coilMat_price"
+            android:background="@color/colorLineBar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_non_woovenCarpet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_calio"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tv_non_woovenCarpet"
+            style="@style/text_roboto_400wt1_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="@string/non_wooven_carpet" />
+
+        <TextView
+            android:id="@+id/tv_non_woovenCarpet_price"
+            style="@style/text_roboto_700wt_16sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="@string/bill_details_calio_max_price" />
+
+
+        <View
+            android:id="@+id/view_non_woovenCarpet"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/tv_non_woovenCarpet_price"
+            android:background="@color/colorLineBar" />
+
+    </RelativeLayout>
+</LinearLayout>

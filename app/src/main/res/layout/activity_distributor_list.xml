@@ -1,0 +1,78 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:fillViewport="true">
+	
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		
+		<ProgressBar
+			android:id="@+id/id_pbarMain"
+			style="@style/appProgressbar"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:layout_marginTop="@dimen/_40sdp"
+			android:indeterminate="true" />
+		
+		<RelativeLayout
+			android:id="@+id/rlMain"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:visibility="visible">
+			
+			
+			<RelativeLayout
+				android:id="@+id/my_toolbar_layout"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/_55sdp"
+				android:background="@drawable/submit_background"
+				android:orientation="vertical">
+				
+				
+				<RelativeLayout
+					android:id="@+id/ivForwardButton"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_width="wrap_content">
+					
+					
+					<ImageView
+						android:id="@+id/ivForward"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="@dimen/_10sdp"
+						
+						android:layout_width="wrap_content"
+						android:background="@drawable/arrow_forward">
+					</ImageView>
+				</RelativeLayout>
+				
+				
+				<TextView
+					android:id="@+id/tvBillsHeader"
+					style="@style/text_roboto_600wt_28sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_toEndOf="@+id/ivForwardButton"
+					android:layout_centerVertical="true"
+					android:layout_gravity="center_vertical"
+					android:layout_marginStart="@dimen/margin"
+					android:text="@string/distributor_list_header" />
+			</RelativeLayout>
+			
+			<include
+				android:id="@+id/distributor_list_recycler_view"
+				layout="@layout/dashboard_recyclerview"
+				android:layout_below="@+id/my_toolbar_layout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/marginTopBottom" />
+		</RelativeLayout>
+	
+	</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

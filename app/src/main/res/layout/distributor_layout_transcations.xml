@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/dashboard_retailer_shape"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	
+	
+	
+	<RelativeLayout
+		android:id="@+id/rl_retailer_transcation"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/tv_retailer_dashboard_header"
+		android:layout_marginStart="@dimen/_10sdp"
+		android:layout_marginEnd="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:layout_marginTop="@dimen/_13sdp"
+		>
+		
+		
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card_view_total_transcations"
+			android:layout_width="match_parent"
+			app:cardBackgroundColor="@color/white"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="@dimen/_7sdp">
+			
+			<RelativeLayout
+				android:id="@+id/rl_total_transactions"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/_90sdp"
+				android:background="@color/white">
+				
+				<ImageView
+					android:id="@+id/imageView_transcation_icon"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginStart="@dimen/_15sdp"
+					android:layout_marginEnd="@dimen/_15sdp"
+					android:src="@drawable/retailer_transcation_icon" />
+				
+				
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					
+					android:layout_marginEnd="@dimen/_5sdp"
+					android:layout_marginBottom="@dimen/_14sdp"
+					android:layout_toEndOf="@+id/imageView_transcation_icon">
+					
+					<TextView
+						android:id="@+id/tv_bill_number"
+						style="@style/text_roboto_14sp_400_opacity60"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="@dimen/_1sdp"
+						android:text="@string/total_transaction" />
+					
+					<RelativeLayout
+						android:id="@+id/rl_retailer_transaction"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/tv_bill_number"
+						android:layout_centerVertical="true">
+						
+						
+						<TextView
+							android:id="@+id/tv_transcation_amount"
+							style="@style/text_roboto_28sp_700_black"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="@dimen/_4sdp"
+							android:text="@string/total_transaction_amount" />
+						
+						<TextView
+							android:id="@+id/tv_bills_amount"
+							style="@style/text_roboto_11sp_400_opacity60percentage"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_below="@+id/tv_transcation_amount"
+							android:text="@string/total_transcation_pre_vat" />
+					</RelativeLayout>
+				</RelativeLayout>
+			
+			</RelativeLayout>
+		
+		
+		</androidx.cardview.widget.CardView>
+		
+		
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card_view_total_approved_transcation"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/card_view_total_transcations"
+			android:layout_marginTop="@dimen/_15sdp"
+			app:cardCornerRadius="@dimen/_7sdp">
+			
+			<RelativeLayout
+				android:id="@+id/rl_total_approved_transcation"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/_90sdp"
+				android:background="@color/white">
+				
+				<ImageView
+					android:id="@+id/imageView_total_approved_transcation"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginStart="@dimen/_15sdp"
+					android:layout_marginEnd="@dimen/_15sdp"
+					android:src="@drawable/distributor_approved_transcations" />
+				
+				
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginEnd="@dimen/_5sdp"
+					android:layout_marginBottom="@dimen/_14sdp"
+					android:layout_toEndOf="@+id/imageView_total_approved_transcation">
+					
+					<TextView
+						android:id="@+id/tv_total_approved_transcation"
+						style="@style/text_roboto_14sp_400_opacity60"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="@dimen/_1sdp"
+						android:text="@string/total_approved_transcation" />
+					
+					<RelativeLayout
+						android:id="@+id/rl_retailer_total_approved_transcation"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/tv_total_approved_transcation"
+						android:layout_centerVertical="true">
+						
+						<TextView
+							android:id="@+id/tv_scheme_approved_transcation"
+							style="@style/text_roboto_28sp_700_black"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="@dimen/_5sdp"
+							android:text="@string/total_scheme_amount" />
+						
+						<TextView
+							android:id="@+id/tv_preVat_after_discount"
+							style="@style/text_roboto_11sp_400_60percent_opacity"
+							android:layout_below="@+id/tv_scheme_approved_transcation"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="@dimen/_5sdp"
+							android:text="@string/distributor_dashboard_distributor_pre_vat" />
+						
+						
+						
+					</RelativeLayout>
+				</RelativeLayout>
+			
+			</RelativeLayout>
+		</androidx.cardview.widget.CardView>
+		
+		
+		<androidx.cardview.widget.CardView
+			android:id="@+id/card_view_total_scheme"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/card_view_total_approved_transcation"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginBottom="@dimen/_15sdp"
+			app:cardCornerRadius="@dimen/_7sdp">
+			
+			<RelativeLayout
+				android:id="@+id/rl_total_scheme"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/_90sdp"
+				android:background="@color/white">
+				
+				<ImageView
+					android:id="@+id/imageView_total_scheme"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginStart="@dimen/_15sdp"
+					android:layout_marginEnd="@dimen/_15sdp"
+					android:src="@drawable/retailer_scheme_icon" />
+				
+				
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginEnd="@dimen/_5sdp"
+					android:layout_marginBottom="@dimen/_14sdp"
+					android:layout_toEndOf="@+id/imageView_total_scheme">
+					
+					<TextView
+						android:id="@+id/tv_total_scheme"
+						style="@style/text_roboto_14sp_400_opacity60"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="@dimen/_1sdp"
+						android:text="@string/total_scheme" />
+					
+					<RelativeLayout
+						android:id="@+id/rl_retailer_total_scheme_amount"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/tv_total_scheme"
+						android:layout_centerVertical="true">
+						
+						<TextView
+							android:id="@+id/tv_scheme_amount"
+							style="@style/text_roboto_28sp_700_black"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="@dimen/_5sdp"
+							android:text="@string/total_scheme_amount" />
+					</RelativeLayout>
+				</RelativeLayout>
+			
+			</RelativeLayout>
+		</androidx.cardview.widget.CardView>
+	</RelativeLayout>
+
+</LinearLayout>

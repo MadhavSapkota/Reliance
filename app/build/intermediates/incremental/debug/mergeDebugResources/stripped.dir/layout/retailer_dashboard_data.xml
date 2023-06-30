@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:id="@+id/rl_scheme"
+		android:layout_width="match_parent"
+		android:layout_marginTop="@dimen/_10sdp"
+		android:layout_marginBottom="@dimen/_20sdp"
+		android:layout_marginEnd="@dimen/_10sdp">
+		
+		<TextView
+			android:id="@+id/text_annual_scheme"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="@style/text_roboto_26sp_600_black"
+			android:text="@string/annual_scheme_title" />
+		
+		<RelativeLayout
+			android:layout_below="@id/text_annual_scheme"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			
+			
+			<RelativeLayout
+				android:id="@+id/rl_current_offer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/_15sdp"
+				>
+				
+				<TextView
+					android:id="@+id/text_current_offer"
+					android:layout_width="wrap_content"
+					style="@style/text_roboto_18sp_400_black"
+					android:layout_marginEnd="@dimen/_15sdp"
+					android:layout_height="wrap_content"
+					android:text="@string/current_offer_title" />
+				
+				<View
+					android:id="@+id/view"
+					android:layout_height="@dimen/_2sdp"
+					android:layout_centerVertical="true"
+					android:visibility="invisible"
+					android:background="@color/black"
+					android:layout_centerHorizontal="true"
+					android:layout_width="@dimen/_15sdp">
+				</View>
+				
+				
+				<TextView
+					android:id="@+id/text_percentage"
+					style="@style/text_roboto_18sp_600_black"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_toEndOf="@+id/view"
+					android:text="@string/current_offer_value" />
+
+				<CheckBox
+					android:id="@+id/ivDropIcon"
+					android:layout_width="@dimen/_15sdp"
+					android:layout_height="@dimen/_10sdp"
+					android:layout_centerVertical="true"
+					android:layout_alignParentEnd="true"
+					android:checked="false"
+					android:clickable="false"
+					android:scaleType="fitXY"
+					android:visibility="visible"
+					android:adjustViewBounds="true"
+					android:button="@null"
+					android:background="@drawable/checkbox_dropdown_selector" />
+			
+			</RelativeLayout>
+			
+			<RelativeLayout
+				android:id="@+id/rl_scheme_earned"
+				android:layout_height="wrap_content"
+				android:visibility="visible"
+				android:layout_below="@id/rl_current_offer"
+				android:layout_width="match_parent">
+				
+				
+				<TextView
+					android:id="@+id/text_scheme_earned"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="@dimen/_15sdp"
+					style="@style/text_roboto_18sp_400_blue"
+					android:text="@string/scheme_earned_title" />
+				
+				<View
+					android:id="@+id/view2"
+					android:layout_height="@dimen/_2sdp"
+					android:visibility="invisible"
+					android:layout_centerVertical="true"
+					android:background="@color/black"
+					android:layout_centerHorizontal="true"
+					android:layout_width="@dimen/_12sdp">
+				</View>
+				
+				
+				<TextView
+					android:id="@+id/text_rs_amount"
+					android:layout_width="wrap_content"
+					style="@style/text_roboto_18sp_600_blue"
+					android:layout_height="wrap_content"
+					android:text="@string/scheme_earned_value"
+					android:layout_toEndOf="@+id/view2" />
+			
+
+			</RelativeLayout>
+			
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:id="@+id/rlPurchase"
+				android:visibility="invisible"
+				android:layout_marginTop="@dimen/_5sdp"
+				android:layout_below="@id/rl_scheme_earned"
+				android:layout_width="match_parent">
+				
+				
+				<TextView
+					android:id="@+id/tv_total_purchase"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="@dimen/_15sdp"
+					style="@style/text_16sp_400_colorOpacity70percent"
+					android:text="@string/retailer_dashboard_retailer_total_purchase" />
+				
+				<View
+					android:id="@+id/view3"
+					android:layout_height="@dimen/_2sdp"
+					android:visibility="invisible"
+					android:layout_centerVertical="true"
+					android:background="@color/black"
+					android:layout_centerHorizontal="true"
+					android:layout_width="@dimen/_15sdp">
+				</View>
+				
+				
+				<TextView
+					android:id="@+id/tv_total_purchase_price"
+					android:layout_width="wrap_content"
+					style="@style/text_16sp_400_colorOpacity70percent"
+					android:layout_height="wrap_content"
+					android:text="@string/retailer_dashboard_retailer_total_purchase_amount"
+					android:layout_toEndOf="@+id/view3" />
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:id="@+id/rlSchemeEarned"
+				android:visibility="gone"
+				android:layout_below="@id/rlPurchase"
+				android:layout_width="match_parent">
+				
+				
+				<TextView
+					android:id="@+id/tv_scheme_earned"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginEnd="@dimen/_15sdp"
+					style="@style/text_16sp_400_colorOpacity70percent"
+					android:text="@string/retailer_dashboard_retailer_scheme_earned" />
+				
+				<View
+					android:id="@+id/view4"
+					android:layout_height="@dimen/_2sdp"
+					android:visibility="invisible"
+					android:layout_centerVertical="true"
+					android:background="@color/black"
+					android:layout_centerHorizontal="true"
+					android:layout_width="@dimen/_15sdp">
+				</View>
+				
+				
+				<TextView
+					android:id="@+id/tv_scheme_earned_unit"
+					android:layout_width="wrap_content"
+					style="@style/text_16sp_400_colorOpacity70percent"
+					android:layout_height="wrap_content"
+					android:text="@string/retailer_dashboard_retailer_total_purchase_scheme_units"
+					android:layout_toEndOf="@+id/view4" />
+			</RelativeLayout>
+			
+		</RelativeLayout>
+	</RelativeLayout>
+	
+	
+	
+	<View
+		android:id="@+id/view_line"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/_1sdp"
+		android:layout_below="@+id/rl_scheme"
+		android:background="@color/colorLineBar" />
+	
+	<RelativeLayout
+		android:id="@+id/graph_start_monthly_target"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/rl_scheme"
+		android:layout_width="wrap_content">
+		
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:id="@+id/rl_monthly_target_tracker"
+		android:layout_marginBottom="@dimen/_20sdp"
+		android:layout_width="wrap_content">
+		
+		<TextView
+			android:id="@+id/rl_monthly_tracker"
+			android:layout_width="wrap_content"
+			style="@style/text_roboto_26sp_600_black"
+			
+			android:layout_marginTop="@dimen/_13sdp"
+			android:layout_marginBottom="@dimen/_10sdp"
+			android:layout_height="wrap_content"
+			android:text="@string/monthly_target_tracker_title" />
+	<RelativeLayout
+		android:id="@+id/rlGraphIndicators"
+		android:layout_below="@+id/rl_monthly_tracker"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_width="wrap_content">
+		
+		<RelativeLayout
+			android:id="@+id/rlRequirePurchase"
+			android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:layout_width="wrap_content">
+			
+			<ImageView
+				android:id="@+id/iVRequiredPurchase"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/_3sdp"
+				android:background="@drawable/graph_icon_circle"
+				android:layout_width="wrap_content"/>
+			
+			<TextView
+				android:id="@+id/tvRequiredPurchase"
+				android:layout_toEndOf="@+id/iVRequiredPurchase"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/_5sdp"
+				android:text="@string/requiredPurchase"
+				android:layout_width="wrap_content">
+			</TextView>
+		</RelativeLayout>
+		
+		<RelativeLayout
+			android:id="@+id/rlAveragePurchase"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_8sdp"
+			android:layout_below="@+id/rlRequirePurchase"
+			android:layout_alignParentEnd="true"
+			android:layout_width="wrap_content">
+			
+			<ImageView
+				android:id="@+id/iVAveragePurchase"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/_3sdp"
+				android:background="@drawable/deep_blue_icon"
+				android:layout_width="wrap_content"/>
+			
+			<TextView
+				android:id="@+id/tvAveragePurchase"
+				android:layout_toEndOf="@+id/iVAveragePurchase"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/_5sdp"
+				android:text="@string/average_purchase_title"
+				android:layout_width="wrap_content">
+			</TextView>
+			
+		</RelativeLayout>
+		
+		</RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/rlLayoutGraph"
+		android:layout_below="@+id/rl_monthly_target_tracker"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/_10sdp"
+		android:layout_width="wrap_content">
+		
+		<include
+			android:id="@+id/recyclerview_bar_charts"
+			layout="@layout/dashboard_recyclerview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>
+
+
+

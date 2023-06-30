@@ -1,0 +1,236 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:id="@+id/rlHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ProgressBar
+            android:id="@+id/id_pbarMain"
+            style="@style/appProgressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:indeterminate="true" />
+
+        <RelativeLayout
+            android:id="@+id/rlMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+
+
+            <RelativeLayout
+                android:id="@+id/my_toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:background="@drawable/submit_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvBillsHeader"
+                    style="@style/text_roboto_600wt_28sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/margin"
+                    android:text="@string/bills_header_name" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/my_entry_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_toolbar_layout"
+                android:layout_marginStart="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginEnd="@dimen/margin">
+
+                <LinearLayout
+                    android:id="@+id/ll_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/rlSearchBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_weight="0.8">
+
+                        <SearchView
+                            android:id="@+id/search_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/searchbar_background"
+                            android:queryBackground="@android:color/transparent"
+                            android:queryHint="Search"
+                            android:textSize="14sp"
+                            app:searchHintIcon="@android:color/transparent" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:layout_weight="0.2"
+                        android:background="@drawable/filter_background">
+
+                        <Button
+                            android:id="@+id/btn_filter"
+                            style="@style/text_roboto_400wt_10sp"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_38sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@android:color/transparent"
+                            android:drawableStart="@drawable/filter"
+                            android:drawablePadding="@dimen/_1sdp"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_20sdp"
+                            android:text="@string/bills_filter"
+                            tools:ignore="RtlSymmetry" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_piechart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_search">
+
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/pie_bills"
+                        android:layout_width="@dimen/_500sdp"
+                        android:layout_height="@dimen/_150sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@color/white"
+                        tools:ignore="MissingClass" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_charts"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_below="@+id/pie_bills"
+                        android:layout_marginBottom="@dimen/_13sdp"
+                        android:visibility="gone">
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/lineChart"
+                            android:layout_width="@dimen/_500sdp"
+                            android:layout_height="@dimen/_150sdp"
+                            android:layout_marginTop="@dimen/_10sdp" />
+
+                    </RelativeLayout>
+
+
+                    <ProgressBar
+                        android:id="@+id/id_pbar1"
+                        style="@style/appProgressbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        android:indeterminate="true"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/rl_piechart"
+                    android:background="@color/colorLineBar" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_complete_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_line"
+                    android:layout_marginTop="@dimen/marginTopBottom"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_month_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_15sdp">
+
+                        <include
+                            android:id="@+id/status_data_recyclerview_include"
+                            layout="@layout/dashboard_recyclerview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_showing_enteries"
+                    style="@style/text_roboto_400wt_14sp_95percent_opacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_complete_status"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="Showing 0 enteries"
+                    android:visibility="visible" />
+
+
+                <include
+                    android:id="@+id/my_dashboard_bills_list_items_recyclerview_include"
+                    layout="@layout/dashboard_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_showing_enteries"
+                    android:layout_marginTop="@dimen/marginTopBottom" />
+
+                <ProgressBar
+                    android:id="@+id/id_pbar"
+                    style="@style/appProgressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_showing_enteries"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_40sdp"
+                    android:indeterminate="true"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/appProgressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlMain"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

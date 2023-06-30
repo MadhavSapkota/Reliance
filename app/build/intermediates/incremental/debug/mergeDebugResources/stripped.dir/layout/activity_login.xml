@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:fillViewport="true">
+	
+<LinearLayout
+	
+	android:id="@+id/root_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	android:orientation="vertical">
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="@dimen/margin">
+		
+		<ImageView
+			android:id="@+id/backgroundImage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerInParent="true"
+			android:layout_gravity="center"
+			android:layout_marginTop="@dimen/_20sdp"
+			android:background="@drawable/logo" />
+		
+		
+		<RelativeLayout
+			android:id="@+id/rlTextField"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@+id/backgroundImage"
+			android:layout_marginTop="@dimen/_25sdp">
+			
+			<TextView
+				android:id="@+id/tvLogin"
+				style="@style/text_header_700wt_32sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentStart="true"
+				android:text="@string/login_title_name" />
+			
+			<TextView
+				android:id="@+id/tvGetStarted"
+				style="@style/text_600wt_20sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tvLogin"
+				android:layout_marginTop="@dimen/textItemsPadding"
+				android:text="@string/login_username_text" />
+			
+			
+			<EditText
+				android:id="@+id/et_username"
+				style="@style/text_400wt_17sp"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/editTextViewHeight"
+				android:layout_below="@+id/tvGetStarted"
+				android:layout_marginTop="@dimen/_14sdp"
+				android:background="@drawable/username_background"
+				android:hint="@string/login_input_uservalue"
+				android:inputType="textPersonName"
+				android:maxLength="45"
+				android:paddingLeft="@dimen/itemPadding" />
+			
+			<TextView
+				android:id="@+id/tv_password"
+				style="@style/text_600wt_20sp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/et_username"
+				android:layout_marginTop="@dimen/_27sdp"
+				android:text="Enter your password" />
+			
+			<com.google.android.material.textfield.TextInputLayout
+				android:id="@+id/etTextInput"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tv_password"
+				android:layout_marginTop="@dimen/_12sdp"
+				app:hintEnabled="false"
+				app:passwordToggleEnabled="true">
+				
+				
+				<EditText
+					android:id="@+id/et_password"
+					style="@style/text_roboto_400wt_16sp"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/editTextViewHeight"
+					android:background="@drawable/password_background"
+					android:hint="@string/login_password_inputValue"
+					android:inputType="textPassword"
+					android:paddingLeft="@dimen/itemPadding" />
+			</com.google.android.material.textfield.TextInputLayout>
+			
+			<LinearLayout
+				android:id="@+id/lL_additional"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/etTextInput"
+				android:layout_marginTop="@dimen/_20sdp"
+				android:orientation="horizontal">
+				
+				<CheckBox
+					android:id="@+id/cb_remember_me"
+					style="@style/text_roboto_400wt_14sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/login_remember_me" />
+				
+				<TextView
+					android:id="@+id/tvForgetPassword"
+					style="@style/text_roboto_400wt_16sp_shadesGray"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="end"
+					android:text="@string/login_forgot_password" />
+			
+			</LinearLayout>
+			
+			<Button
+				android:id="@+id/btn_login"
+				style="@style/text_roboto_700wt_20sp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/lL_additional"
+				android:layout_marginTop="@dimen/_30sdp"
+				android:background="@drawable/submit_btn_background"
+				android:text="@string/login_submit" />
+		</RelativeLayout>
+	</RelativeLayout>
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
